@@ -18,7 +18,7 @@
 
 // extJSON
 #import "TTErrorCodes.h"
-#import "JSONKit.h"
+#import "TTJSONKit.h"
 //#ifdef EXTJSON_SBJSON
 //#import "extThree20JSON/SBJson.h"
 //#import "extThree20JSON/NSString+SBJSON.h"

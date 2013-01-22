@@ -72,6 +72,8 @@
 		111D5F4B16AEA1510009EBDB /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29B16AD2FF100A9A1EC /* UIColorAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		111D5F4C16AEA1510009EBDB /* UIFontAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29D16AD2FF100A9A1EC /* UIFontAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		111D5F4D16AEA1510009EBDB /* UIImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29F16AD2FF100A9A1EC /* UIImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5FA816AEB7000009EBDB /* TTJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 111D5FA616AEB7000009EBDB /* TTJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5FA916AEB7000009EBDB /* TTJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 111D5FA716AEB7000009EBDB /* TTJSONKit.m */; };
 		1155BFA216AD2A4A00A9A1EC /* Three20Lite.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */; };
 		1155C00C16AD2CAE00A9A1EC /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFDF16AD2CAE00A9A1EC /* NSArrayAdditions.m */; };
 		1155C00D16AD2CAE00A9A1EC /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE116AD2CAE00A9A1EC /* NSDataAdditions.m */; };
@@ -235,7 +237,6 @@
 		1155C2DB16AD2FF100A9A1EC /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C2A016AD2FF100A9A1EC /* UIImageAdditions.m */; };
 		1155C2DE16AD345500A9A1EC /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C2DD16AD344B00A9A1EC /* TTTableViewCell.m */; };
 		1155C3D516AD45A200A9A1EC /* TTURLJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */; };
-		117EEDD416AE31140097685E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EEDD316AE31140097685E /* JSONKit.m */; };
 		117EF36916AE74560097685E /* Three20Lite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF36A16AE745E0097685E /* Three20Lite+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 117EEFF016AE38BD0097685E /* Three20Lite+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF37D16AE78730097685E /* Three20.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEC16AD2CAE00A9A1EC /* Three20.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -372,7 +373,6 @@
 		117EF40016AE78740097685E /* TTURLWildcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06C16AD2E9500A9A1EC /* TTURLWildcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF40116AE78740097685E /* UIViewController+TTNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06E16AD2E9500A9A1EC /* UIViewController+TTNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF40216AE78740097685E /* UIViewController+TTNavigatorGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C07016AD2E9500A9A1EC /* UIViewController+TTNavigatorGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF40316AE78740097685E /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 117EEDD216AE31140097685E /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -389,6 +389,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		111D5FA616AEB7000009EBDB /* TTJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTJSONKit.h; sourceTree = "<group>"; };
+		111D5FA716AEB7000009EBDB /* TTJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTJSONKit.m; sourceTree = "<group>"; };
 		1155BF9916AD2A4900A9A1EC /* libThree20Lite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20Lite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1155BFA016AD2A4A00A9A1EC /* Three20Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three20Lite-Prefix.pch"; sourceTree = "<group>"; };
 		1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three20Lite.h; sourceTree = "<group>"; };
@@ -753,8 +755,6 @@
 		1155C2DD16AD344B00A9A1EC /* TTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewCell.m; sourceTree = "<group>"; };
 		1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLJSONResponse.h; sourceTree = "<group>"; };
 		1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTURLJSONResponse.m; sourceTree = "<group>"; };
-		117EEDD216AE31140097685E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		117EEDD316AE31140097685E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		117EEFF016AE38BD0097685E /* Three20Lite+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Lite+Additions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -878,6 +878,8 @@
 				1155C03916AD2DCE00A9A1EC /* TTURLResponse.h */,
 				1155C03A16AD2DCE00A9A1EC /* TTUserInfo.h */,
 				1155C03B16AD2DCE00A9A1EC /* TTUserInfo.m */,
+				111D5FA616AEB7000009EBDB /* TTJSONKit.h */,
+				111D5FA716AEB7000009EBDB /* TTJSONKit.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -1061,7 +1063,6 @@
 				1155C06E16AD2E9500A9A1EC /* UIViewController+TTNavigator.h */,
 				1155C06F16AD2E9500A9A1EC /* UIViewController+TTNavigator.m */,
 				1155C07016AD2E9500A9A1EC /* UIViewController+TTNavigatorGarbageCollection.h */,
-				117EEDD116AE31140097685E /* JSONKit */,
 			);
 			path = Navigator;
 			sourceTree = "<group>";
@@ -1196,16 +1197,6 @@
 			);
 			path = Style;
 			sourceTree = "<group>";
-		};
-		117EEDD116AE31140097685E /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				117EEDD216AE31140097685E /* JSONKit.h */,
-				117EEDD316AE31140097685E /* JSONKit.m */,
-			);
-			name = JSONKit;
-			path = Three20Lite/Network/JSONKit;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -1350,7 +1341,6 @@
 				117EF40016AE78740097685E /* TTURLWildcard.h in Headers */,
 				117EF40116AE78740097685E /* UIViewController+TTNavigator.h in Headers */,
 				117EF40216AE78740097685E /* UIViewController+TTNavigatorGarbageCollection.h in Headers */,
-				117EF40316AE78740097685E /* JSONKit.h in Headers */,
 				111D5F0D16AEA1500009EBDB /* Three20Style.h in Headers */,
 				111D5F0E16AEA1510009EBDB /* Three20Style+Additions.h in Headers */,
 				111D5F0F16AEA1510009EBDB /* TTBevelBorderStyle.h in Headers */,
@@ -1416,6 +1406,7 @@
 				111D5F4B16AEA1510009EBDB /* UIColorAdditions.h in Headers */,
 				111D5F4C16AEA1510009EBDB /* UIFontAdditions.h in Headers */,
 				111D5F4D16AEA1510009EBDB /* UIImageAdditions.h in Headers */,
+				111D5FA816AEB7000009EBDB /* TTJSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1633,7 +1624,7 @@
 				1155C2DB16AD2FF100A9A1EC /* UIImageAdditions.m in Sources */,
 				1155C2DE16AD345500A9A1EC /* TTTableViewCell.m in Sources */,
 				1155C3D516AD45A200A9A1EC /* TTURLJSONResponse.m in Sources */,
-				117EEDD416AE31140097685E /* JSONKit.m in Sources */,
+				111D5FA916AEB7000009EBDB /* TTJSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
