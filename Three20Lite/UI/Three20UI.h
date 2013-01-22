@@ -14,19 +14,14 @@
 // limitations under the License.
 //
 
-
-// UI Additions
-#import "Three20UI+Additions.h"
+#import "Three20UINavigator.h"
 
 // UI Controllers
 #import "TTNavigator.h"
 #import "TTViewController.h"
 #import "TTSplitViewController.h"
 #import "TTNavigationController.h"
-#import "TTExtensionsController.h"
 #import "TTWebController.h"
-#import "TTTextBarController.h"
-#import "TTTextBarDelegate.h"
 #import "TTURLCache.h"
 
 // UI Views

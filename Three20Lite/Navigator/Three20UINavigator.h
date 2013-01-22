@@ -14,8 +14,6 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator+Additions.h"
-
 #import "TTGlobalNavigatorMetrics.h"
 
 #import "TTURLObject.h"

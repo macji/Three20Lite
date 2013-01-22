@@ -171,7 +171,7 @@
 		1155C2DB16AD2FF100A9A1EC /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C2A016AD2FF100A9A1EC /* UIImageAdditions.m */; };
 		1155C2DE16AD345500A9A1EC /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C2DD16AD344B00A9A1EC /* TTTableViewCell.m */; };
 		1155C3D516AD45A200A9A1EC /* TTURLJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */; };
-		1155C3DD16AD4D3000A9A1EC /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C3DC16AD4D3000A9A1EC /* JSONKit.m */; };
+		117EEDD416AE31140097685E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EEDD316AE31140097685E /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -553,8 +553,9 @@
 		1155C2DD16AD344B00A9A1EC /* TTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewCell.m; sourceTree = "<group>"; };
 		1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLJSONResponse.h; sourceTree = "<group>"; };
 		1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTURLJSONResponse.m; sourceTree = "<group>"; };
-		1155C3DB16AD4D3000A9A1EC /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = Vendors/JSONKit/JSONKit.h; sourceTree = SOURCE_ROOT; };
-		1155C3DC16AD4D3000A9A1EC /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = Vendors/JSONKit/JSONKit.m; sourceTree = SOURCE_ROOT; };
+		117EEDD216AE31140097685E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		117EEDD316AE31140097685E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		117EEFF016AE38BD0097685E /* Three20Lite+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Lite+Additions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -573,7 +574,6 @@
 			isa = PBXGroup;
 			children = (
 				1155BF9E16AD2A4A00A9A1EC /* Three20Lite */,
-				1155C3D616AD46A300A9A1EC /* Vendors */,
 				1155BF9B16AD2A4900A9A1EC /* Frameworks */,
 				1155BF9A16AD2A4900A9A1EC /* Products */,
 			);
@@ -599,6 +599,7 @@
 			isa = PBXGroup;
 			children = (
 				1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */,
+				117EEFF016AE38BD0097685E /* Three20Lite+Additions.h */,
 				1155BFA016AD2A4A00A9A1EC /* Three20Lite-Prefix.pch */,
 				1155BFB316AD2C3900A9A1EC /* Core */,
 				1155BFB416AD2C3A00A9A1EC /* Network */,
@@ -870,6 +871,7 @@
 				1155C06E16AD2E9500A9A1EC /* UIViewController+TTNavigator.h */,
 				1155C06F16AD2E9500A9A1EC /* UIViewController+TTNavigator.m */,
 				1155C07016AD2E9500A9A1EC /* UIViewController+TTNavigatorGarbageCollection.h */,
+				117EEDD116AE31140097685E /* JSONKit */,
 			);
 			path = Navigator;
 			sourceTree = "<group>";
@@ -1005,23 +1007,15 @@
 			path = Style;
 			sourceTree = "<group>";
 		};
-		1155C3D616AD46A300A9A1EC /* Vendors */ = {
+		117EEDD116AE31140097685E /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
-				1155C3D716AD46A400A9A1EC /* JSONKit */,
+				117EEDD216AE31140097685E /* JSONKit.h */,
+				117EEDD316AE31140097685E /* JSONKit.m */,
 			);
-			name = Vendors;
-			path = Three20Lite/Vendors;
-			sourceTree = "<group>";
-		};
-		1155C3D716AD46A400A9A1EC /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				1155C3DB16AD4D3000A9A1EC /* JSONKit.h */,
-				1155C3DC16AD4D3000A9A1EC /* JSONKit.m */,
-			);
-			path = JSONKit;
-			sourceTree = "<group>";
+			name = JSONKit;
+			path = Three20Lite/Network/JSONKit;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -1236,7 +1230,7 @@
 				1155C2DB16AD2FF100A9A1EC /* UIImageAdditions.m in Sources */,
 				1155C2DE16AD345500A9A1EC /* TTTableViewCell.m in Sources */,
 				1155C3D516AD45A200A9A1EC /* TTURLJSONResponse.m in Sources */,
-				1155C3DD16AD4D3000A9A1EC /* JSONKit.m in Sources */,
+				117EEDD416AE31140097685E /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,7 +1289,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Three20Lite/Three20Lite-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/Three20Lite;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1307,7 +1303,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Three20Lite/Three20Lite-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/Three20Lite;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
