@@ -7,7 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1155BF9D16AD2A4900A9A1EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1155BF9C16AD2A4900A9A1EC /* Foundation.framework */; };
+		111D5F0D16AEA1500009EBDB /* Three20Style.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22616AD2FF000A9A1EC /* Three20Style.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F0E16AEA1510009EBDB /* Three20Style+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22516AD2FF000A9A1EC /* Three20Style+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F0F16AEA1510009EBDB /* TTBevelBorderStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22716AD2FF000A9A1EC /* TTBevelBorderStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1016AEA1510009EBDB /* TTBlendStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22916AD2FF000A9A1EC /* TTBlendStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1116AEA1510009EBDB /* TTBoxStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22B16AD2FF000A9A1EC /* TTBoxStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1216AEA1510009EBDB /* TTContentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22D16AD2FF000A9A1EC /* TTContentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1316AEA1510009EBDB /* TTDefaultStyleSheet+DragRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C22F16AD2FF000A9A1EC /* TTDefaultStyleSheet+DragRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1416AEA1510009EBDB /* TTDefaultStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23016AD2FF000A9A1EC /* TTDefaultStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1516AEA1510009EBDB /* TTFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23216AD2FF000A9A1EC /* TTFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1616AEA1510009EBDB /* TTFourBorderStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23416AD2FF000A9A1EC /* TTFourBorderStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1716AEA1510009EBDB /* TTGlobalStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23616AD2FF000A9A1EC /* TTGlobalStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1816AEA1510009EBDB /* TTGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23816AD2FF000A9A1EC /* TTGridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1916AEA1510009EBDB /* TTHighlightBorderStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23A16AD2FF000A9A1EC /* TTHighlightBorderStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1A16AEA1510009EBDB /* TTImageStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23C16AD2FF000A9A1EC /* TTImageStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1B16AEA1510009EBDB /* TTInnerShadowStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C23E16AD2FF000A9A1EC /* TTInnerShadowStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1C16AEA1510009EBDB /* TTInsetStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24016AD2FF000A9A1EC /* TTInsetStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1D16AEA1510009EBDB /* TTLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24216AD2FF000A9A1EC /* TTLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1E16AEA1510009EBDB /* TTLinearGradientBorderStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24416AD2FF000A9A1EC /* TTLinearGradientBorderStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F1F16AEA1510009EBDB /* TTLinearGradientFillStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24616AD2FF000A9A1EC /* TTLinearGradientFillStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2016AEA1510009EBDB /* TTMaskStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24816AD2FF000A9A1EC /* TTMaskStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2116AEA1510009EBDB /* TTPartStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24A16AD2FF000A9A1EC /* TTPartStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2216AEA1510009EBDB /* TTPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24C16AD2FF000A9A1EC /* TTPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2316AEA1510009EBDB /* TTRectangleShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24D16AD2FF000A9A1EC /* TTRectangleShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2416AEA1510009EBDB /* TTReflectiveFillStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C24F16AD2FF000A9A1EC /* TTReflectiveFillStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2516AEA1510009EBDB /* TTRoundedLeftArrowShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25116AD2FF000A9A1EC /* TTRoundedLeftArrowShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2616AEA1510009EBDB /* TTRoundedRectangleShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25316AD2FF000A9A1EC /* TTRoundedRectangleShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2716AEA1510009EBDB /* TTRoundedRightArrowShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25516AD2FF000A9A1EC /* TTRoundedRightArrowShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2816AEA1510009EBDB /* TTShadowStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25716AD2FF000A9A1EC /* TTShadowStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2916AEA1510009EBDB /* TTShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25916AD2FF000A9A1EC /* TTShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2A16AEA1510009EBDB /* TTShapeInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25B16AD2FF000A9A1EC /* TTShapeInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2B16AEA1510009EBDB /* TTShapeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25D16AD2FF000A9A1EC /* TTShapeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2C16AEA1510009EBDB /* TTSolidBorderStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C25F16AD2FF000A9A1EC /* TTSolidBorderStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2D16AEA1510009EBDB /* TTSolidFillStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26116AD2FF000A9A1EC /* TTSolidFillStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2E16AEA1510009EBDB /* TTSpeechBubbleShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26316AD2FF000A9A1EC /* TTSpeechBubbleShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F2F16AEA1510009EBDB /* TTStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26516AD2FF000A9A1EC /* TTStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3016AEA1510009EBDB /* TTStyleContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26716AD2FF000A9A1EC /* TTStyleContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3116AEA1510009EBDB /* TTStyledBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26916AD2FF000A9A1EC /* TTStyledBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3216AEA1510009EBDB /* TTStyledBoldNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26B16AD2FF100A9A1EC /* TTStyledBoldNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3316AEA1510009EBDB /* TTStyledBoxFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26D16AD2FF100A9A1EC /* TTStyledBoxFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3416AEA1510009EBDB /* TTStyledButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C26F16AD2FF100A9A1EC /* TTStyledButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3516AEA1510009EBDB /* TTStyleDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27116AD2FF100A9A1EC /* TTStyleDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3616AEA1510009EBDB /* TTStyledElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27216AD2FF100A9A1EC /* TTStyledElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3716AEA1510009EBDB /* TTStyledFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27416AD2FF100A9A1EC /* TTStyledFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3816AEA1510009EBDB /* TTStyledImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27616AD2FF100A9A1EC /* TTStyledImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3916AEA1510009EBDB /* TTStyledImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27816AD2FF100A9A1EC /* TTStyledImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3A16AEA1510009EBDB /* TTStyledInline.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27A16AD2FF100A9A1EC /* TTStyledInline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3B16AEA1510009EBDB /* TTStyledInlineBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27C16AD2FF100A9A1EC /* TTStyledInlineBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3C16AEA1510009EBDB /* TTStyledInlineFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C27E16AD2FF100A9A1EC /* TTStyledInlineFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3D16AEA1510009EBDB /* TTStyledItalicNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28016AD2FF100A9A1EC /* TTStyledItalicNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3E16AEA1510009EBDB /* TTStyledLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28216AD2FF100A9A1EC /* TTStyledLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F3F16AEA1510009EBDB /* TTStyledLineBreakNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28416AD2FF100A9A1EC /* TTStyledLineBreakNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4016AEA1510009EBDB /* TTStyledLinkNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28616AD2FF100A9A1EC /* TTStyledLinkNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4116AEA1510009EBDB /* TTStyledNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28816AD2FF100A9A1EC /* TTStyledNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4216AEA1510009EBDB /* TTStyledNodeInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28A16AD2FF100A9A1EC /* TTStyledNodeInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4316AEA1510009EBDB /* TTStyledText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28C16AD2FF100A9A1EC /* TTStyledText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4416AEA1510009EBDB /* TTStyledTextDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28E16AD2FF100A9A1EC /* TTStyledTextDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4516AEA1510009EBDB /* TTStyledTextFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C28F16AD2FF100A9A1EC /* TTStyledTextFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4616AEA1510009EBDB /* TTStyledTextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29116AD2FF100A9A1EC /* TTStyledTextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4716AEA1510009EBDB /* TTStyledTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29316AD2FF100A9A1EC /* TTStyledTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4816AEA1510009EBDB /* TTStyleInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29516AD2FF100A9A1EC /* TTStyleInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4916AEA1510009EBDB /* TTStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29716AD2FF100A9A1EC /* TTStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4A16AEA1510009EBDB /* TTTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29916AD2FF100A9A1EC /* TTTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4B16AEA1510009EBDB /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29B16AD2FF100A9A1EC /* UIColorAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4C16AEA1510009EBDB /* UIFontAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29D16AD2FF100A9A1EC /* UIFontAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111D5F4D16AEA1510009EBDB /* UIImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C29F16AD2FF100A9A1EC /* UIImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1155BFA216AD2A4A00A9A1EC /* Three20Lite.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */; };
 		1155C00C16AD2CAE00A9A1EC /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFDF16AD2CAE00A9A1EC /* NSArrayAdditions.m */; };
 		1155C00D16AD2CAE00A9A1EC /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE116AD2CAE00A9A1EC /* NSDataAdditions.m */; };
@@ -172,24 +236,160 @@
 		1155C2DE16AD345500A9A1EC /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C2DD16AD344B00A9A1EC /* TTTableViewCell.m */; };
 		1155C3D516AD45A200A9A1EC /* TTURLJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */; };
 		117EEDD416AE31140097685E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EEDD316AE31140097685E /* JSONKit.m */; };
+		117EF36916AE74560097685E /* Three20Lite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF36A16AE745E0097685E /* Three20Lite+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 117EEFF016AE38BD0097685E /* Three20Lite+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF37D16AE78730097685E /* Three20.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEC16AD2CAE00A9A1EC /* Three20.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF37E16AE78730097685E /* Three20Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEF16AD2CAE00A9A1EC /* Three20Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF37F16AE78730097685E /* Three20Core+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF016AD2CAE00A9A1EC /* Three20Core+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38016AE78730097685E /* Three20Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF116AD2CAE00A9A1EC /* Three20Version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38116AE78730097685E /* TTAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF316AD2CAE00A9A1EC /* TTAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38216AE78730097685E /* TTCorePreprocessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF516AD2CAE00A9A1EC /* TTCorePreprocessorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38316AE78730097685E /* TTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF616AD2CAE00A9A1EC /* TTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38416AE78730097685E /* TTDebugFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF816AD2CAE00A9A1EC /* TTDebugFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38516AE78730097685E /* TTEntityTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF916AD2CAE00A9A1EC /* TTEntityTables.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38616AE78730097685E /* TTGlobalCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C00216AD2CAE00A9A1EC /* TTGlobalCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38716AE78730097685E /* TTGlobalCoreLocale.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C00416AD2CAE00A9A1EC /* TTGlobalCoreLocale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38816AE78730097685E /* TTGlobalCorePaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C00616AD2CAE00A9A1EC /* TTGlobalCorePaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38916AE78730097685E /* TTGlobalCoreRects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C00816AD2CAE00A9A1EC /* TTGlobalCoreRects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38A16AE78730097685E /* TTMarkupStripper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C00A16AD2CAE00A9A1EC /* TTMarkupStripper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38B16AE78730097685E /* NSArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFDE16AD2CAE00A9A1EC /* NSArrayAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38C16AE78730097685E /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE016AD2CAE00A9A1EC /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38D16AE78730097685E /* NSDateAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE216AD2CAE00A9A1EC /* NSDateAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38E16AE78730097685E /* NSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE416AD2CAE00A9A1EC /* NSMutableArrayAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF38F16AE78730097685E /* NSMutableDictionaryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE616AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39016AE78730097685E /* NSObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE816AD2CAE00A9A1EC /* NSObjectAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39116AE78730097685E /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEA16AD2CAE00A9A1EC /* NSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39216AE78730097685E /* Three20Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02016AD2DCE00A9A1EC /* Three20Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39316AE78730097685E /* TTURLJSONResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39416AE78730097685E /* TTErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02116AD2DCE00A9A1EC /* TTErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39516AE78730097685E /* TTGlobalNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02316AD2DCE00A9A1EC /* TTGlobalNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39616AE78730097685E /* TTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02516AD2DCE00A9A1EC /* TTModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39716AE78730097685E /* TTModelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02716AD2DCE00A9A1EC /* TTModelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39816AE78730097685E /* TTRequestLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02816AD2DCE00A9A1EC /* TTRequestLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39916AE78730097685E /* TTURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02A16AD2DCE00A9A1EC /* TTURLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39A16AE78730097685E /* TTURLDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02C16AD2DCE00A9A1EC /* TTURLDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39B16AE78730097685E /* TTURLImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02E16AD2DCE00A9A1EC /* TTURLImageResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39C16AE78730097685E /* TTURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03016AD2DCE00A9A1EC /* TTURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39D16AE78730097685E /* TTURLRequestCachePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03216AD2DCE00A9A1EC /* TTURLRequestCachePolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39E16AE78730097685E /* TTURLRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03316AD2DCE00A9A1EC /* TTURLRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF39F16AE78730097685E /* TTURLRequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03416AD2DCE00A9A1EC /* TTURLRequestModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A016AE78730097685E /* TTURLRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03616AD2DCE00A9A1EC /* TTURLRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A116AE78730097685E /* TTURLRequestQueueInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03816AD2DCE00A9A1EC /* TTURLRequestQueueInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A216AE78730097685E /* TTURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03916AD2DCE00A9A1EC /* TTURLResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A316AE78730097685E /* TTUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03A16AD2DCE00A9A1EC /* TTUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A416AE78730097685E /* Three20UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08016AD2EA800A9A1EC /* Three20UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A516AE78730097685E /* Three20UI+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08116AD2EA800A9A1EC /* Three20UI+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A616AE78730097685E /* Three20UICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08216AD2EA800A9A1EC /* Three20UICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A716AE78730097685E /* Three20UICommon+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08316AD2EA800A9A1EC /* Three20UICommon+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A816AE78730097685E /* TTActivityLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08916AD2EA800A9A1EC /* TTActivityLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3A916AE78730097685E /* TTAlertViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08F16AD2EA800A9A1EC /* TTAlertViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AA16AE78730097685E /* TTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09016AD2EA800A9A1EC /* TTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AB16AE78730097685E /* TTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09216AD2EA800A9A1EC /* TTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AC16AE78730097685E /* TTButtonContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09616AD2EA800A9A1EC /* TTButtonContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AD16AE78730097685E /* TTErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09816AD2EA800A9A1EC /* TTErrorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AE16AE78730097685E /* TTGlobalUICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09E16AD2EA800A9A1EC /* TTGlobalUICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3AF16AE78730097685E /* TTImageLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A016AD2EA800A9A1EC /* TTImageLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B016AE78730097685E /* TTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A216AD2EA800A9A1EC /* TTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B116AE78730097685E /* TTImageViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A416AD2EA800A9A1EC /* TTImageViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B216AE78730097685E /* TTImageViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A516AD2EA800A9A1EC /* TTImageViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B316AE78730097685E /* TTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A716AD2EA800A9A1EC /* TTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B416AE78730097685E /* TTListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0B716AD2EA800A9A1EC /* TTListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B516AE78730097685E /* TTModelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C416AD2EA800A9A1EC /* TTModelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B616AE78730097685E /* TTNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C616AD2EA800A9A1EC /* TTNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B716AE78730097685E /* TTNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C816AD2EA800A9A1EC /* TTNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B816AE78730097685E /* TTNavigatorWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0CA16AD2EA800A9A1EC /* TTNavigatorWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3B916AE78730097685E /* TTPopupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0DA16AD2EA800A9A1EC /* TTPopupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BA16AE78730097685E /* TTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E116AD2EA800A9A1EC /* TTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BD16AE78730097685E /* TTSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E516AD2EA800A9A1EC /* TTSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BE16AE78730097685E /* TTSearchDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E716AD2EA800A9A1EC /* TTSearchDisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3BF16AE78730097685E /* TTSearchlightLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E916AD2EA800A9A1EC /* TTSearchlightLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C016AE78730097685E /* TTSearchTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0EB16AD2EA800A9A1EC /* TTSearchTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C116AE78730097685E /* TTSearchTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0ED16AD2EA900A9A1EC /* TTSearchTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C216AE78730097685E /* TTSearchTextFieldInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0EE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F416AD2EA900A9A1EC /* TTStyledTextLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C616AE78740097685E /* TTTabItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C10316AD2EA900A9A1EC /* TTTabItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C716AE78740097685E /* TTTableFooterInfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11516AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C816AE78740097685E /* TTTableHeaderDragRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11916AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3C916AE78740097685E /* TTTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11B16AD2EA900A9A1EC /* TTTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CA16AE78740097685E /* TTTableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C12116AD2EA900A9A1EC /* TTTableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CB16AE78740097685E /* TTTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C13916AD2EA900A9A1EC /* TTTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CC16AE78740097685E /* TTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C14F16AD2EA900A9A1EC /* TTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CD16AE78740097685E /* TTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C2DC16AD344700A9A1EC /* TTTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CE16AE78740097685E /* TTTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15316AD2EA900A9A1EC /* TTTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3CF16AE78740097685E /* TTTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15516AD2EA900A9A1EC /* TTTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D016AE78740097685E /* TTTableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15716AD2EA900A9A1EC /* TTTableViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D116AE78740097685E /* TTTableViewDragRefreshDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15916AD2EA900A9A1EC /* TTTableViewDragRefreshDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D216AE78740097685E /* TTTableViewGroupedVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15B16AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D316AE78740097685E /* TTTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15D16AD2EA900A9A1EC /* TTTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D416AE78740097685E /* TTTableViewNetworkEnabledDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15F16AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D516AE78740097685E /* TTTableViewPlainDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16116AD2EA900A9A1EC /* TTTableViewPlainDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D616AE78740097685E /* TTTableViewPlainVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16316AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D716AE78740097685E /* TTTableViewVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16516AD2EA900A9A1EC /* TTTableViewVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D816AE78740097685E /* TTThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C17B16AD2EA900A9A1EC /* TTThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3D916AE78740097685E /* TTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C17F16AD2EA900A9A1EC /* TTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DA16AE78740097685E /* TTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18116AD2EA900A9A1EC /* TTViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DB16AE78740097685E /* TTWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18316AD2EA900A9A1EC /* TTWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DC16AE78740097685E /* UINavigationControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18716AD2EA900A9A1EC /* UINavigationControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DD16AE78740097685E /* UINSObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18916AD2EA900A9A1EC /* UINSObjectAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DE16AE78740097685E /* UINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18B16AD2EA900A9A1EC /* UINSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3DF16AE78740097685E /* UISplitViewController+TTNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18D16AD2EA900A9A1EC /* UISplitViewController+TTNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E016AE78740097685E /* UITabBarControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C18F16AD2EA900A9A1EC /* UITabBarControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E116AE78740097685E /* UITableViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19116AD2EA900A9A1EC /* UITableViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E216AE78740097685E /* UIToolbarAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19316AD2EA900A9A1EC /* UIToolbarAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E316AE78740097685E /* UIView+TTUICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19516AD2EA900A9A1EC /* UIView+TTUICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E416AE78740097685E /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19716AD2EA900A9A1EC /* UIViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E516AE78740097685E /* UIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19916AD2EA900A9A1EC /* UIViewControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E616AE78740097685E /* UIViewControllerGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19B16AD2EA900A9A1EC /* UIViewControllerGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E716AE78740097685E /* UIWebViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19C16AD2EA900A9A1EC /* UIWebViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E816AE78740097685E /* UIWindowAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19E16AD2EA900A9A1EC /* UIWindowAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3E916AE78740097685E /* Three20UINavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04916AD2E9500A9A1EC /* Three20UINavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3EA16AE78740097685E /* Three20UINavigator+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04816AD2E9500A9A1EC /* Three20UINavigator+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3EB16AE78740097685E /* TTBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04A16AD2E9500A9A1EC /* TTBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3EC16AE78740097685E /* TTBaseNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04C16AD2E9500A9A1EC /* TTBaseNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3ED16AE78740097685E /* TTBaseNavigatorInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04E16AD2E9500A9A1EC /* TTBaseNavigatorInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3EE16AE78740097685E /* TTGlobalNavigatorMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04F16AD2E9500A9A1EC /* TTGlobalNavigatorMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3EF16AE78740097685E /* TTNavigationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05116AD2E9500A9A1EC /* TTNavigationMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F016AE78740097685E /* TTNavigatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05216AD2E9500A9A1EC /* TTNavigatorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F116AE78740097685E /* TTNavigatorPersistenceMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05316AD2E9500A9A1EC /* TTNavigatorPersistenceMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F216AE78740097685E /* TTNavigatorRootContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05416AD2E9500A9A1EC /* TTNavigatorRootContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F316AE78740097685E /* TTNavigatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05516AD2E9500A9A1EC /* TTNavigatorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F416AE78740097685E /* TTURLAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05716AD2E9500A9A1EC /* TTURLAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F516AE78740097685E /* TTURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05916AD2E9500A9A1EC /* TTURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F616AE78740097685E /* TTURLArgumentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05B16AD2E9500A9A1EC /* TTURLArgumentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F716AE78740097685E /* TTURLGeneratorPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05C16AD2E9500A9A1EC /* TTURLGeneratorPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F816AE78740097685E /* TTURLLiteral.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C05E16AD2E9500A9A1EC /* TTURLLiteral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3F916AE78740097685E /* TTURLMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06016AD2E9500A9A1EC /* TTURLMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FA16AE78740097685E /* TTURLNavigatorPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06216AD2E9500A9A1EC /* TTURLNavigatorPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FB16AE78740097685E /* TTURLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06416AD2E9500A9A1EC /* TTURLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FC16AE78740097685E /* TTURLPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06516AD2E9500A9A1EC /* TTURLPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FD16AE78740097685E /* TTURLPatternInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06716AD2E9500A9A1EC /* TTURLPatternInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FE16AE78740097685E /* TTURLPatternText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06916AD2E9500A9A1EC /* TTURLPatternText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF3FF16AE78740097685E /* TTURLSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06A16AD2E9500A9A1EC /* TTURLSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF40016AE78740097685E /* TTURLWildcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06C16AD2E9500A9A1EC /* TTURLWildcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF40116AE78740097685E /* UIViewController+TTNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C06E16AD2E9500A9A1EC /* UIViewController+TTNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF40216AE78740097685E /* UIViewController+TTNavigatorGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C07016AD2E9500A9A1EC /* UIViewController+TTNavigatorGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117EF40316AE78740097685E /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 117EEDD216AE31140097685E /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1155BF9716AD2A4900A9A1EC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
 				1155BFA216AD2A4A00A9A1EC /* Three20Lite.h in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1155BF9916AD2A4900A9A1EC /* libThree20Lite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20Lite.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1155BF9C16AD2A4900A9A1EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1155BFA016AD2A4A00A9A1EC /* Three20Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three20Lite-Prefix.pch"; sourceTree = "<group>"; };
 		1155BFA116AD2A4A00A9A1EC /* Three20Lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three20Lite.h; sourceTree = "<group>"; };
 		1155BFDE16AD2CAE00A9A1EC /* NSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayAdditions.h; sourceTree = "<group>"; };
@@ -563,7 +763,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1155BF9D16AD2A4900A9A1EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +773,6 @@
 			isa = PBXGroup;
 			children = (
 				1155BF9E16AD2A4A00A9A1EC /* Three20Lite */,
-				1155BF9B16AD2A4900A9A1EC /* Frameworks */,
 				1155BF9A16AD2A4900A9A1EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -585,14 +783,6 @@
 				1155BF9916AD2A4900A9A1EC /* libThree20Lite.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1155BF9B16AD2A4900A9A1EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1155BF9C16AD2A4900A9A1EC /* Foundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1155BF9E16AD2A4A00A9A1EC /* Three20Lite */ = {
@@ -1019,6 +1209,218 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		117EF07416AE71FA0097685E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117EF36916AE74560097685E /* Three20Lite.h in Headers */,
+				117EF36A16AE745E0097685E /* Three20Lite+Additions.h in Headers */,
+				117EF37D16AE78730097685E /* Three20.h in Headers */,
+				117EF37E16AE78730097685E /* Three20Core.h in Headers */,
+				117EF37F16AE78730097685E /* Three20Core+Additions.h in Headers */,
+				117EF38016AE78730097685E /* Three20Version.h in Headers */,
+				117EF38116AE78730097685E /* TTAvailability.h in Headers */,
+				117EF38216AE78730097685E /* TTCorePreprocessorMacros.h in Headers */,
+				117EF38316AE78730097685E /* TTDebug.h in Headers */,
+				117EF38416AE78730097685E /* TTDebugFlags.h in Headers */,
+				117EF38516AE78730097685E /* TTEntityTables.h in Headers */,
+				117EF38616AE78730097685E /* TTGlobalCore.h in Headers */,
+				117EF38716AE78730097685E /* TTGlobalCoreLocale.h in Headers */,
+				117EF38816AE78730097685E /* TTGlobalCorePaths.h in Headers */,
+				117EF38916AE78730097685E /* TTGlobalCoreRects.h in Headers */,
+				117EF38A16AE78730097685E /* TTMarkupStripper.h in Headers */,
+				117EF38B16AE78730097685E /* NSArrayAdditions.h in Headers */,
+				117EF38C16AE78730097685E /* NSDataAdditions.h in Headers */,
+				117EF38D16AE78730097685E /* NSDateAdditions.h in Headers */,
+				117EF38E16AE78730097685E /* NSMutableArrayAdditions.h in Headers */,
+				117EF38F16AE78730097685E /* NSMutableDictionaryAdditions.h in Headers */,
+				117EF39016AE78730097685E /* NSObjectAdditions.h in Headers */,
+				117EF39116AE78730097685E /* NSStringAdditions.h in Headers */,
+				117EF39216AE78730097685E /* Three20Network.h in Headers */,
+				117EF39316AE78730097685E /* TTURLJSONResponse.h in Headers */,
+				117EF39416AE78730097685E /* TTErrorCodes.h in Headers */,
+				117EF39516AE78730097685E /* TTGlobalNetwork.h in Headers */,
+				117EF39616AE78730097685E /* TTModel.h in Headers */,
+				117EF39716AE78730097685E /* TTModelDelegate.h in Headers */,
+				117EF39816AE78730097685E /* TTRequestLoader.h in Headers */,
+				117EF39916AE78730097685E /* TTURLCache.h in Headers */,
+				117EF39A16AE78730097685E /* TTURLDataResponse.h in Headers */,
+				117EF39B16AE78730097685E /* TTURLImageResponse.h in Headers */,
+				117EF39C16AE78730097685E /* TTURLRequest.h in Headers */,
+				117EF39D16AE78730097685E /* TTURLRequestCachePolicy.h in Headers */,
+				117EF39E16AE78730097685E /* TTURLRequestDelegate.h in Headers */,
+				117EF39F16AE78730097685E /* TTURLRequestModel.h in Headers */,
+				117EF3A016AE78730097685E /* TTURLRequestQueue.h in Headers */,
+				117EF3A116AE78730097685E /* TTURLRequestQueueInternal.h in Headers */,
+				117EF3A216AE78730097685E /* TTURLResponse.h in Headers */,
+				117EF3A316AE78730097685E /* TTUserInfo.h in Headers */,
+				117EF3A416AE78730097685E /* Three20UI.h in Headers */,
+				117EF3A516AE78730097685E /* Three20UI+Additions.h in Headers */,
+				117EF3A616AE78730097685E /* Three20UICommon.h in Headers */,
+				117EF3A716AE78730097685E /* Three20UICommon+Additions.h in Headers */,
+				117EF3A816AE78730097685E /* TTActivityLabel.h in Headers */,
+				117EF3A916AE78730097685E /* TTAlertViewControllerDelegate.h in Headers */,
+				117EF3AA16AE78730097685E /* TTBaseViewController.h in Headers */,
+				117EF3AB16AE78730097685E /* TTButton.h in Headers */,
+				117EF3AC16AE78730097685E /* TTButtonContent.h in Headers */,
+				117EF3AD16AE78730097685E /* TTErrorView.h in Headers */,
+				117EF3AE16AE78730097685E /* TTGlobalUICommon.h in Headers */,
+				117EF3AF16AE78730097685E /* TTImageLayer.h in Headers */,
+				117EF3B016AE78730097685E /* TTImageView.h in Headers */,
+				117EF3B116AE78730097685E /* TTImageViewDelegate.h in Headers */,
+				117EF3B216AE78730097685E /* TTImageViewInternal.h in Headers */,
+				117EF3B316AE78730097685E /* TTLabel.h in Headers */,
+				117EF3B416AE78730097685E /* TTListDataSource.h in Headers */,
+				117EF3B516AE78730097685E /* TTModelViewController.h in Headers */,
+				117EF3B616AE78730097685E /* TTNavigationController.h in Headers */,
+				117EF3B716AE78730097685E /* TTNavigator.h in Headers */,
+				117EF3B816AE78730097685E /* TTNavigatorWindow.h in Headers */,
+				117EF3B916AE78730097685E /* TTPopupViewController.h in Headers */,
+				117EF3BA16AE78730097685E /* TTScrollView.h in Headers */,
+				117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */,
+				117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */,
+				117EF3BD16AE78730097685E /* TTSearchBar.h in Headers */,
+				117EF3BE16AE78730097685E /* TTSearchDisplayController.h in Headers */,
+				117EF3BF16AE78730097685E /* TTSearchlightLabel.h in Headers */,
+				117EF3C016AE78730097685E /* TTSearchTextField.h in Headers */,
+				117EF3C116AE78730097685E /* TTSearchTextFieldDelegate.h in Headers */,
+				117EF3C216AE78730097685E /* TTSearchTextFieldInternal.h in Headers */,
+				117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */,
+				117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */,
+				117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */,
+				117EF3C616AE78740097685E /* TTTabItem.h in Headers */,
+				117EF3C716AE78740097685E /* TTTableFooterInfiniteScrollView.h in Headers */,
+				117EF3C816AE78740097685E /* TTTableHeaderDragRefreshView.h in Headers */,
+				117EF3C916AE78740097685E /* TTTableHeaderView.h in Headers */,
+				117EF3CA16AE78740097685E /* TTTableItem.h in Headers */,
+				117EF3CB16AE78740097685E /* TTTableSection.h in Headers */,
+				117EF3CC16AE78740097685E /* TTTableView.h in Headers */,
+				117EF3CD16AE78740097685E /* TTTableViewCell.h in Headers */,
+				117EF3CE16AE78740097685E /* TTTableViewController.h in Headers */,
+				117EF3CF16AE78740097685E /* TTTableViewDataSource.h in Headers */,
+				117EF3D016AE78740097685E /* TTTableViewDelegate.h in Headers */,
+				117EF3D116AE78740097685E /* TTTableViewDragRefreshDelegate.h in Headers */,
+				117EF3D216AE78740097685E /* TTTableViewGroupedVarHeightDelegate.h in Headers */,
+				117EF3D316AE78740097685E /* TTTableViewItem.h in Headers */,
+				117EF3D416AE78740097685E /* TTTableViewNetworkEnabledDelegate.h in Headers */,
+				117EF3D516AE78740097685E /* TTTableViewPlainDelegate.h in Headers */,
+				117EF3D616AE78740097685E /* TTTableViewPlainVarHeightDelegate.h in Headers */,
+				117EF3D716AE78740097685E /* TTTableViewVarHeightDelegate.h in Headers */,
+				117EF3D816AE78740097685E /* TTThumbView.h in Headers */,
+				117EF3D916AE78740097685E /* TTView.h in Headers */,
+				117EF3DA16AE78740097685E /* TTViewController.h in Headers */,
+				117EF3DB16AE78740097685E /* TTWebController.h in Headers */,
+				117EF3DC16AE78740097685E /* UINavigationControllerAdditions.h in Headers */,
+				117EF3DD16AE78740097685E /* UINSObjectAdditions.h in Headers */,
+				117EF3DE16AE78740097685E /* UINSStringAdditions.h in Headers */,
+				117EF3DF16AE78740097685E /* UISplitViewController+TTNavigator.h in Headers */,
+				117EF3E016AE78740097685E /* UITabBarControllerAdditions.h in Headers */,
+				117EF3E116AE78740097685E /* UITableViewAdditions.h in Headers */,
+				117EF3E216AE78740097685E /* UIToolbarAdditions.h in Headers */,
+				117EF3E316AE78740097685E /* UIView+TTUICommon.h in Headers */,
+				117EF3E416AE78740097685E /* UIViewAdditions.h in Headers */,
+				117EF3E516AE78740097685E /* UIViewControllerAdditions.h in Headers */,
+				117EF3E616AE78740097685E /* UIViewControllerGarbageCollection.h in Headers */,
+				117EF3E716AE78740097685E /* UIWebViewAdditions.h in Headers */,
+				117EF3E816AE78740097685E /* UIWindowAdditions.h in Headers */,
+				117EF3E916AE78740097685E /* Three20UINavigator.h in Headers */,
+				117EF3EA16AE78740097685E /* Three20UINavigator+Additions.h in Headers */,
+				117EF3EB16AE78740097685E /* TTBaseNavigationController.h in Headers */,
+				117EF3EC16AE78740097685E /* TTBaseNavigator.h in Headers */,
+				117EF3ED16AE78740097685E /* TTBaseNavigatorInternal.h in Headers */,
+				117EF3EE16AE78740097685E /* TTGlobalNavigatorMetrics.h in Headers */,
+				117EF3EF16AE78740097685E /* TTNavigationMode.h in Headers */,
+				117EF3F016AE78740097685E /* TTNavigatorDelegate.h in Headers */,
+				117EF3F116AE78740097685E /* TTNavigatorPersistenceMode.h in Headers */,
+				117EF3F216AE78740097685E /* TTNavigatorRootContainer.h in Headers */,
+				117EF3F316AE78740097685E /* TTNavigatorViewController.h in Headers */,
+				117EF3F416AE78740097685E /* TTURLAction.h in Headers */,
+				117EF3F516AE78740097685E /* TTURLArguments.h in Headers */,
+				117EF3F616AE78740097685E /* TTURLArgumentType.h in Headers */,
+				117EF3F716AE78740097685E /* TTURLGeneratorPattern.h in Headers */,
+				117EF3F816AE78740097685E /* TTURLLiteral.h in Headers */,
+				117EF3F916AE78740097685E /* TTURLMap.h in Headers */,
+				117EF3FA16AE78740097685E /* TTURLNavigatorPattern.h in Headers */,
+				117EF3FB16AE78740097685E /* TTURLObject.h in Headers */,
+				117EF3FC16AE78740097685E /* TTURLPattern.h in Headers */,
+				117EF3FD16AE78740097685E /* TTURLPatternInternal.h in Headers */,
+				117EF3FE16AE78740097685E /* TTURLPatternText.h in Headers */,
+				117EF3FF16AE78740097685E /* TTURLSelector.h in Headers */,
+				117EF40016AE78740097685E /* TTURLWildcard.h in Headers */,
+				117EF40116AE78740097685E /* UIViewController+TTNavigator.h in Headers */,
+				117EF40216AE78740097685E /* UIViewController+TTNavigatorGarbageCollection.h in Headers */,
+				117EF40316AE78740097685E /* JSONKit.h in Headers */,
+				111D5F0D16AEA1500009EBDB /* Three20Style.h in Headers */,
+				111D5F0E16AEA1510009EBDB /* Three20Style+Additions.h in Headers */,
+				111D5F0F16AEA1510009EBDB /* TTBevelBorderStyle.h in Headers */,
+				111D5F1016AEA1510009EBDB /* TTBlendStyle.h in Headers */,
+				111D5F1116AEA1510009EBDB /* TTBoxStyle.h in Headers */,
+				111D5F1216AEA1510009EBDB /* TTContentStyle.h in Headers */,
+				111D5F1316AEA1510009EBDB /* TTDefaultStyleSheet+DragRefreshHeader.h in Headers */,
+				111D5F1416AEA1510009EBDB /* TTDefaultStyleSheet.h in Headers */,
+				111D5F1516AEA1510009EBDB /* TTFlowLayout.h in Headers */,
+				111D5F1616AEA1510009EBDB /* TTFourBorderStyle.h in Headers */,
+				111D5F1716AEA1510009EBDB /* TTGlobalStyle.h in Headers */,
+				111D5F1816AEA1510009EBDB /* TTGridLayout.h in Headers */,
+				111D5F1916AEA1510009EBDB /* TTHighlightBorderStyle.h in Headers */,
+				111D5F1A16AEA1510009EBDB /* TTImageStyle.h in Headers */,
+				111D5F1B16AEA1510009EBDB /* TTInnerShadowStyle.h in Headers */,
+				111D5F1C16AEA1510009EBDB /* TTInsetStyle.h in Headers */,
+				111D5F1D16AEA1510009EBDB /* TTLayout.h in Headers */,
+				111D5F1E16AEA1510009EBDB /* TTLinearGradientBorderStyle.h in Headers */,
+				111D5F1F16AEA1510009EBDB /* TTLinearGradientFillStyle.h in Headers */,
+				111D5F2016AEA1510009EBDB /* TTMaskStyle.h in Headers */,
+				111D5F2116AEA1510009EBDB /* TTPartStyle.h in Headers */,
+				111D5F2216AEA1510009EBDB /* TTPosition.h in Headers */,
+				111D5F2316AEA1510009EBDB /* TTRectangleShape.h in Headers */,
+				111D5F2416AEA1510009EBDB /* TTReflectiveFillStyle.h in Headers */,
+				111D5F2516AEA1510009EBDB /* TTRoundedLeftArrowShape.h in Headers */,
+				111D5F2616AEA1510009EBDB /* TTRoundedRectangleShape.h in Headers */,
+				111D5F2716AEA1510009EBDB /* TTRoundedRightArrowShape.h in Headers */,
+				111D5F2816AEA1510009EBDB /* TTShadowStyle.h in Headers */,
+				111D5F2916AEA1510009EBDB /* TTShape.h in Headers */,
+				111D5F2A16AEA1510009EBDB /* TTShapeInternal.h in Headers */,
+				111D5F2B16AEA1510009EBDB /* TTShapeStyle.h in Headers */,
+				111D5F2C16AEA1510009EBDB /* TTSolidBorderStyle.h in Headers */,
+				111D5F2D16AEA1510009EBDB /* TTSolidFillStyle.h in Headers */,
+				111D5F2E16AEA1510009EBDB /* TTSpeechBubbleShape.h in Headers */,
+				111D5F2F16AEA1510009EBDB /* TTStyle.h in Headers */,
+				111D5F3016AEA1510009EBDB /* TTStyleContext.h in Headers */,
+				111D5F3116AEA1510009EBDB /* TTStyledBlock.h in Headers */,
+				111D5F3216AEA1510009EBDB /* TTStyledBoldNode.h in Headers */,
+				111D5F3316AEA1510009EBDB /* TTStyledBoxFrame.h in Headers */,
+				111D5F3416AEA1510009EBDB /* TTStyledButtonNode.h in Headers */,
+				111D5F3516AEA1510009EBDB /* TTStyleDelegate.h in Headers */,
+				111D5F3616AEA1510009EBDB /* TTStyledElement.h in Headers */,
+				111D5F3716AEA1510009EBDB /* TTStyledFrame.h in Headers */,
+				111D5F3816AEA1510009EBDB /* TTStyledImageFrame.h in Headers */,
+				111D5F3916AEA1510009EBDB /* TTStyledImageNode.h in Headers */,
+				111D5F3A16AEA1510009EBDB /* TTStyledInline.h in Headers */,
+				111D5F3B16AEA1510009EBDB /* TTStyledInlineBlock.h in Headers */,
+				111D5F3C16AEA1510009EBDB /* TTStyledInlineFrame.h in Headers */,
+				111D5F3D16AEA1510009EBDB /* TTStyledItalicNode.h in Headers */,
+				111D5F3E16AEA1510009EBDB /* TTStyledLayout.h in Headers */,
+				111D5F3F16AEA1510009EBDB /* TTStyledLineBreakNode.h in Headers */,
+				111D5F4016AEA1510009EBDB /* TTStyledLinkNode.h in Headers */,
+				111D5F4116AEA1510009EBDB /* TTStyledNode.h in Headers */,
+				111D5F4216AEA1510009EBDB /* TTStyledNodeInternal.h in Headers */,
+				111D5F4316AEA1510009EBDB /* TTStyledText.h in Headers */,
+				111D5F4416AEA1510009EBDB /* TTStyledTextDelegate.h in Headers */,
+				111D5F4516AEA1510009EBDB /* TTStyledTextFrame.h in Headers */,
+				111D5F4616AEA1510009EBDB /* TTStyledTextNode.h in Headers */,
+				111D5F4716AEA1510009EBDB /* TTStyledTextParser.h in Headers */,
+				111D5F4816AEA1510009EBDB /* TTStyleInternal.h in Headers */,
+				111D5F4916AEA1510009EBDB /* TTStyleSheet.h in Headers */,
+				111D5F4A16AEA1510009EBDB /* TTTextStyle.h in Headers */,
+				111D5F4B16AEA1510009EBDB /* UIColorAdditions.h in Headers */,
+				111D5F4C16AEA1510009EBDB /* UIFontAdditions.h in Headers */,
+				111D5F4D16AEA1510009EBDB /* UIImageAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		1155BF9816AD2A4900A9A1EC /* Three20Lite */ = {
 			isa = PBXNativeTarget;
@@ -1027,6 +1429,7 @@
 				1155BF9516AD2A4900A9A1EC /* Sources */,
 				1155BF9616AD2A4900A9A1EC /* Frameworks */,
 				1155BF9716AD2A4900A9A1EC /* CopyFiles */,
+				117EF07416AE71FA0097685E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1285,13 +1688,15 @@
 		1155BFA816AD2A4A00A9A1EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BASE_PRODUCT_NAME = Three20Lite;
 				DSTROOT = /tmp/Three20Lite.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Three20Lite/Three20Lite-Prefix.pch";
+				HEADERS_FOLDER_PATH = /../Three20Lite/;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/Three20Lite;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(HEADERS_FOLDER_PATH)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1299,13 +1704,15 @@
 		1155BFA916AD2A4A00A9A1EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BASE_PRODUCT_NAME = Three20Lite;
 				DSTROOT = /tmp/Three20Lite.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Three20Lite/Three20Lite-Prefix.pch";
+				HEADERS_FOLDER_PATH = /../Three20Lite/;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/Three20Lite;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(HEADERS_FOLDER_PATH)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
