@@ -84,7 +84,6 @@
 		1155C01216AD2CAE00A9A1EC /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFEB16AD2CAE00A9A1EC /* NSStringAdditions.m */; };
 		1155C01316AD2CAE00A9A1EC /* Three20.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFED16AD2CAE00A9A1EC /* Three20.m */; };
 		1155C01416AD2CAE00A9A1EC /* Three20Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFF216AD2CAE00A9A1EC /* Three20Version.m */; };
-		1155C01516AD2CAE00A9A1EC /* TTAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFF416AD2CAE00A9A1EC /* TTAvailability.m */; };
 		1155C01616AD2CAE00A9A1EC /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFF716AD2CAE00A9A1EC /* TTDebug.m */; };
 		1155C01716AD2CAE00A9A1EC /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFFA16AD2CAE00A9A1EC /* TTEntityTables.m */; };
 		1155C01B16AD2CAE00A9A1EC /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C00316AD2CAE00A9A1EC /* TTGlobalCore.m */; };
@@ -242,7 +241,6 @@
 		117EF37E16AE78730097685E /* Three20Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEF16AD2CAE00A9A1EC /* Three20Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF37F16AE78730097685E /* Three20Core+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF016AD2CAE00A9A1EC /* Three20Core+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38016AE78730097685E /* Three20Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF116AD2CAE00A9A1EC /* Three20Version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF38116AE78730097685E /* TTAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF316AD2CAE00A9A1EC /* TTAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38216AE78730097685E /* TTCorePreprocessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF516AD2CAE00A9A1EC /* TTCorePreprocessorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38316AE78730097685E /* TTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF616AD2CAE00A9A1EC /* TTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38416AE78730097685E /* TTDebugFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFF816AD2CAE00A9A1EC /* TTDebugFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -282,7 +280,6 @@
 		117EF3A616AE78730097685E /* Three20UICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08216AD2EA800A9A1EC /* Three20UICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A716AE78730097685E /* Three20UICommon+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08316AD2EA800A9A1EC /* Three20UICommon+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A816AE78730097685E /* TTActivityLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08916AD2EA800A9A1EC /* TTActivityLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3A916AE78730097685E /* TTAlertViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08F16AD2EA800A9A1EC /* TTAlertViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3AA16AE78730097685E /* TTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09016AD2EA800A9A1EC /* TTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3AB16AE78730097685E /* TTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09216AD2EA800A9A1EC /* TTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3AC16AE78730097685E /* TTButtonContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C09616AD2EA800A9A1EC /* TTButtonContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -412,8 +409,6 @@
 		1155BFF016AD2CAE00A9A1EC /* Three20Core+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Core+Additions.h"; sourceTree = "<group>"; };
 		1155BFF116AD2CAE00A9A1EC /* Three20Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20Version.h; sourceTree = "<group>"; };
 		1155BFF216AD2CAE00A9A1EC /* Three20Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Three20Version.m; sourceTree = "<group>"; };
-		1155BFF316AD2CAE00A9A1EC /* TTAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAvailability.h; sourceTree = "<group>"; };
-		1155BFF416AD2CAE00A9A1EC /* TTAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAvailability.m; sourceTree = "<group>"; };
 		1155BFF516AD2CAE00A9A1EC /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
 		1155BFF616AD2CAE00A9A1EC /* TTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebug.h; sourceTree = "<group>"; };
 		1155BFF716AD2CAE00A9A1EC /* TTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDebug.m; sourceTree = "<group>"; };
@@ -505,7 +500,6 @@
 		1155C08316AD2EA800A9A1EC /* Three20UICommon+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20UICommon+Additions.h"; sourceTree = "<group>"; };
 		1155C08916AD2EA800A9A1EC /* TTActivityLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTActivityLabel.h; sourceTree = "<group>"; };
 		1155C08A16AD2EA800A9A1EC /* TTActivityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTActivityLabel.m; sourceTree = "<group>"; };
-		1155C08F16AD2EA800A9A1EC /* TTAlertViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAlertViewControllerDelegate.h; sourceTree = "<group>"; };
 		1155C09016AD2EA800A9A1EC /* TTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseViewController.h; sourceTree = "<group>"; };
 		1155C09116AD2EA800A9A1EC /* TTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseViewController.m; sourceTree = "<group>"; };
 		1155C09216AD2EA800A9A1EC /* TTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTButton.h; sourceTree = "<group>"; };
@@ -805,8 +799,6 @@
 				1155BFF016AD2CAE00A9A1EC /* Three20Core+Additions.h */,
 				1155BFF116AD2CAE00A9A1EC /* Three20Version.h */,
 				1155BFF216AD2CAE00A9A1EC /* Three20Version.m */,
-				1155BFF316AD2CAE00A9A1EC /* TTAvailability.h */,
-				1155BFF416AD2CAE00A9A1EC /* TTAvailability.m */,
 				1155BFF516AD2CAE00A9A1EC /* TTCorePreprocessorMacros.h */,
 				1155BFF616AD2CAE00A9A1EC /* TTDebug.h */,
 				1155BFF716AD2CAE00A9A1EC /* TTDebug.m */,
@@ -889,7 +881,6 @@
 				1155C08316AD2EA800A9A1EC /* Three20UICommon+Additions.h */,
 				1155C08916AD2EA800A9A1EC /* TTActivityLabel.h */,
 				1155C08A16AD2EA800A9A1EC /* TTActivityLabel.m */,
-				1155C08F16AD2EA800A9A1EC /* TTAlertViewControllerDelegate.h */,
 				1155C09016AD2EA800A9A1EC /* TTBaseViewController.h */,
 				1155C09116AD2EA800A9A1EC /* TTBaseViewController.m */,
 				1155C09216AD2EA800A9A1EC /* TTButton.h */,
@@ -1205,7 +1196,6 @@
 				117EF37E16AE78730097685E /* Three20Core.h in Headers */,
 				117EF37F16AE78730097685E /* Three20Core+Additions.h in Headers */,
 				117EF38016AE78730097685E /* Three20Version.h in Headers */,
-				117EF38116AE78730097685E /* TTAvailability.h in Headers */,
 				117EF38216AE78730097685E /* TTCorePreprocessorMacros.h in Headers */,
 				117EF38316AE78730097685E /* TTDebug.h in Headers */,
 				117EF38416AE78730097685E /* TTDebugFlags.h in Headers */,
@@ -1245,7 +1235,6 @@
 				117EF3A616AE78730097685E /* Three20UICommon.h in Headers */,
 				117EF3A716AE78730097685E /* Three20UICommon+Additions.h in Headers */,
 				117EF3A816AE78730097685E /* TTActivityLabel.h in Headers */,
-				117EF3A916AE78730097685E /* TTAlertViewControllerDelegate.h in Headers */,
 				117EF3AA16AE78730097685E /* TTBaseViewController.h in Headers */,
 				117EF3AB16AE78730097685E /* TTButton.h in Headers */,
 				117EF3AC16AE78730097685E /* TTButtonContent.h in Headers */,
@@ -1464,7 +1453,6 @@
 				1155C01216AD2CAE00A9A1EC /* NSStringAdditions.m in Sources */,
 				1155C01316AD2CAE00A9A1EC /* Three20.m in Sources */,
 				1155C01416AD2CAE00A9A1EC /* Three20Version.m in Sources */,
-				1155C01516AD2CAE00A9A1EC /* TTAvailability.m in Sources */,
 				1155C01616AD2CAE00A9A1EC /* TTDebug.m in Sources */,
 				1155C01716AD2CAE00A9A1EC /* TTEntityTables.m in Sources */,
 				1155C01B16AD2CAE00A9A1EC /* TTGlobalCore.m in Sources */,

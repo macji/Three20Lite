@@ -39,7 +39,6 @@
 #import "TTDebug.h"
 #import "TTDebugFlags.h"
 #import "NSDateAdditions.h"
-#import "TTAvailability.h"
 
 static TTBaseNavigator* gNavigator = nil;
 
@@ -345,7 +344,7 @@ __attribute__((weak_import));
     TT_RELEASE_SAFELY(_popoverController);
   }
 
-  _popoverController =  [[TTUIPopoverControllerClass() alloc] init];
+  _popoverController =  [[UIPopoverController alloc] init];
   if (_popoverController != nil) {
     [_popoverController setContentViewController:controller];
     [_popoverController setDelegate:self];
