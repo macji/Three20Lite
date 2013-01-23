@@ -28,13 +28,8 @@
 #import "TTView.h"
 #import "TTImageView.h"
 #import "TTImageViewDelegate.h"
-#import "TTScrollView.h"
-#import "TTScrollViewDelegate.h"
-#import "TTScrollViewDataSource.h"
-
 #import "TTStyledTextLabel.h"
 #import "TTActivityLabel.h"
-
 #import "TTButton.h"
 
 #import "TTTableViewController.h"

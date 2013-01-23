@@ -126,7 +126,6 @@
 		1155C1BF16AD2EA900A9A1EC /* TTNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0C916AD2EA800A9A1EC /* TTNavigator.m */; };
 		1155C1C016AD2EA900A9A1EC /* TTNavigatorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0CB16AD2EA800A9A1EC /* TTNavigatorWindow.m */; };
 		1155C1C616AD2EA900A9A1EC /* TTPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0DB16AD2EA800A9A1EC /* TTPopupViewController.m */; };
-		1155C1C916AD2EA900A9A1EC /* TTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0E216AD2EA800A9A1EC /* TTScrollView.m */; };
 		1155C1CF16AD2EA900A9A1EC /* TTSectionedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */; };
 		1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F316AD2EA900A9A1EC /* TTSplitViewController.m */; };
 		1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F516AD2EA900A9A1EC /* TTStyledTextLabel.m */; };
@@ -275,9 +274,6 @@
 		117EF3B716AE78730097685E /* TTNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C816AD2EA800A9A1EC /* TTNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B816AE78730097685E /* TTNavigatorWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0CA16AD2EA800A9A1EC /* TTNavigatorWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B916AE78730097685E /* TTPopupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0DA16AD2EA800A9A1EC /* TTPopupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BA16AE78730097685E /* TTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E116AD2EA800A9A1EC /* TTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F416AD2EA900A9A1EC /* TTStyledTextLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -488,10 +484,6 @@
 		1155C0CB16AD2EA800A9A1EC /* TTNavigatorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNavigatorWindow.m; sourceTree = "<group>"; };
 		1155C0DA16AD2EA800A9A1EC /* TTPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPopupViewController.h; sourceTree = "<group>"; };
 		1155C0DB16AD2EA800A9A1EC /* TTPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPopupViewController.m; sourceTree = "<group>"; };
-		1155C0E116AD2EA800A9A1EC /* TTScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollView.h; sourceTree = "<group>"; };
-		1155C0E216AD2EA800A9A1EC /* TTScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollView.m; sourceTree = "<group>"; };
-		1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewDataSource.h; sourceTree = "<group>"; };
-		1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewDelegate.h; sourceTree = "<group>"; };
 		1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSectionedDataSource.h; sourceTree = "<group>"; };
 		1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSectionedDataSource.m; sourceTree = "<group>"; };
 		1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSplitViewController.h; sourceTree = "<group>"; };
@@ -840,10 +832,6 @@
 				1155C0CB16AD2EA800A9A1EC /* TTNavigatorWindow.m */,
 				1155C0DA16AD2EA800A9A1EC /* TTPopupViewController.h */,
 				1155C0DB16AD2EA800A9A1EC /* TTPopupViewController.m */,
-				1155C0E116AD2EA800A9A1EC /* TTScrollView.h */,
-				1155C0E216AD2EA800A9A1EC /* TTScrollView.m */,
-				1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */,
-				1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */,
 				1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */,
 				1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */,
 				1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */,
@@ -1157,9 +1145,6 @@
 				117EF3B716AE78730097685E /* TTNavigator.h in Headers */,
 				117EF3B816AE78730097685E /* TTNavigatorWindow.h in Headers */,
 				117EF3B916AE78730097685E /* TTPopupViewController.h in Headers */,
-				117EF3BA16AE78730097685E /* TTScrollView.h in Headers */,
-				117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */,
-				117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */,
 				117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */,
 				117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */,
 				117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */,
@@ -1393,7 +1378,6 @@
 				1155C1BF16AD2EA900A9A1EC /* TTNavigator.m in Sources */,
 				1155C1C016AD2EA900A9A1EC /* TTNavigatorWindow.m in Sources */,
 				1155C1C616AD2EA900A9A1EC /* TTPopupViewController.m in Sources */,
-				1155C1C916AD2EA900A9A1EC /* TTScrollView.m in Sources */,
 				1155C1CF16AD2EA900A9A1EC /* TTSectionedDataSource.m in Sources */,
 				1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */,
 				1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */,
