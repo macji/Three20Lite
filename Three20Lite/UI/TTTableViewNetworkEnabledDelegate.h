@@ -16,19 +16,16 @@
 
 #import "TTTableViewVarHeightDelegate.h"
 
-@class TTTableHeaderDragRefreshView, TTTableFooterInfiniteScrollView;
+@class TTTableHeaderDragRefreshView;
 @protocol TTModel, TTTableNetworkEnabledTableViewController;
 
 @interface TTTableViewNetworkEnabledDelegate : TTTableViewVarHeightDelegate {
   TTTableHeaderDragRefreshView*    _headerView;
-  TTTableFooterInfiniteScrollView* _footerView;
   id<TTModel>                      _model;
   BOOL                             _dragRefreshEnabled;
-  BOOL                             _infiniteScrollEnabled;
 }
 
 @property (nonatomic, retain) TTTableHeaderDragRefreshView* headerView;
-@property (nonatomic, retain) TTTableFooterInfiniteScrollView* footerView;
 @property (readonly) BOOL dragRefreshEnabled;
 @property (readonly) BOOL infiniteScrollEnabled;
 

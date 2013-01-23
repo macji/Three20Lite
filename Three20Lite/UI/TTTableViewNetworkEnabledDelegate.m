@@ -18,7 +18,6 @@
 
 // UI
 #import "TTTableHeaderDragRefreshView.h"
-#import "TTTableFooterInfiniteScrollView.h"
 #import "TTTableViewController.h"
 #import "UIViewAdditions.h"
 
@@ -54,9 +53,8 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @implementation TTTableViewNetworkEnabledDelegate
 
-@synthesize headerView = _headerView, footerView = _footerView,
-            dragRefreshEnabled = _dragRefreshEnabled,
-            infiniteScrollEnabled = _infiniteScrollEnabled;
+@synthesize headerView = _headerView,
+            dragRefreshEnabled = _dragRefreshEnabled;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -71,7 +69,6 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
 	self = [super initWithController:controller];
   if (self) {
     _dragRefreshEnabled = enableDragRefresh;
-    _infiniteScrollEnabled = enableInfiniteScroll;
 
     // Hook up to the model to listen for changes.
     _model = [controller.model retain];
@@ -99,16 +96,6 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
         }
       }
     }
-
-    if (_infiniteScrollEnabled) {
-      _footerView = [[TTTableFooterInfiniteScrollView alloc]
-                      initWithFrame:CGRectMake(0,
-                                               0,
-                                               _controller.tableView.width,
-                                               kInfiniteScrollFooterHeight)];
-      _footerView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-      _controller.tableView.tableFooterView = _footerView;
-    }
   }
   return self;
 }
@@ -120,7 +107,6 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
   [_model.delegates removeObject:self];
   [_headerView removeFromSuperview];
   TT_RELEASE_SAFELY(_headerView);
-  TT_RELEASE_SAFELY(_footerView);
   TT_RELEASE_SAFELY(_model);
 
   [super dealloc];
@@ -158,25 +144,6 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
       } else if (scrollView.contentOffset.y < 0) {
         _controller.tableView.contentInset = UIEdgeInsetsMake(kHeaderVisibleHeight, 0, 0, 0);
       }
-    }
-  }
-
-  if (_infiniteScrollEnabled && !_model.isLoading) {
-    CGFloat scrollRatio = scrollView.contentOffset.y /
-                          (scrollView.contentSize.height - scrollView.height);
-    scrollRatio = MAX(MIN(scrollRatio, 1),0);
-    BOOL shouldLoad;
-    if ([_controller respondsToSelector:@selector(shouldLoadAtScrollRatio:)]) {
-      shouldLoad = [(id <TTTableNetworkEnabledTableViewController>)_controller
-                    shouldLoadAtScrollRatio:scrollRatio];
-
-    } else {
-      shouldLoad = scrollRatio > kInfiniteScrollThreshold;
-    }
-
-    if (shouldLoad) {
-      [_model load:TTURLRequestCachePolicyDefault more:YES];
-      [(TTTableFooterInfiniteScrollView*)_controller.tableView.tableFooterView setLoading:YES];
     }
   }
 }
@@ -236,10 +203,6 @@ static const CGFloat kInfiniteScrollThreshold = 0.5f;
     } else {
       [_headerView setCurrentDate];
     }
-  }
-
-  if (_infiniteScrollEnabled) {
-    [(TTTableFooterInfiniteScrollView*)_controller.tableView.tableFooterView setLoading:NO];
   }
 }
 

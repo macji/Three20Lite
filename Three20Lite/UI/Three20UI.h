@@ -45,13 +45,11 @@
 #import "TTTableViewPlainDelegate.h"
 #import "TTTableViewPlainVarHeightDelegate.h"
 #import "TTTableViewDragRefreshDelegate.h"
-#import "TTTableViewNetworkEnabledDelegate.h"
 
 #import "TTListDataSource.h"
 #import "TTSectionedDataSource.h"
 #import "TTTableHeaderView.h"
 #import "TTTableSection.h"
-#import "TTTableFooterInfiniteScrollView.h"
 #import "TTTableHeaderDragRefreshView.h"
 #import "TTTableViewCell.h"
 

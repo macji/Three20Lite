@@ -131,7 +131,6 @@
 		1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F316AD2EA900A9A1EC /* TTSplitViewController.m */; };
 		1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F516AD2EA900A9A1EC /* TTStyledTextLabel.m */; };
 		1155C1D816AD2EA900A9A1EC /* TTTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C10416AD2EA900A9A1EC /* TTTabItem.m */; };
-		1155C1E116AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C11616AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.m */; };
 		1155C1E316AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C11A16AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.m */; };
 		1155C1E416AD2EA900A9A1EC /* TTTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C11C16AD2EA900A9A1EC /* TTTableHeaderView.m */; };
 		1155C1E716AD2EA900A9A1EC /* TTTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C12216AD2EA900A9A1EC /* TTTableItem.m */; };
@@ -143,7 +142,6 @@
 		1155C20316AD2EA900A9A1EC /* TTTableViewDragRefreshDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C15A16AD2EA900A9A1EC /* TTTableViewDragRefreshDelegate.m */; };
 		1155C20416AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C15C16AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.m */; };
 		1155C20516AD2EA900A9A1EC /* TTTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C15E16AD2EA900A9A1EC /* TTTableViewItem.m */; };
-		1155C20616AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C16016AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.m */; };
 		1155C20716AD2EA900A9A1EC /* TTTableViewPlainDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C16216AD2EA900A9A1EC /* TTTableViewPlainDelegate.m */; };
 		1155C20816AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C16416AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.m */; };
 		1155C20916AD2EA900A9A1EC /* TTTableViewVarHeightDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C16616AD2EA900A9A1EC /* TTTableViewVarHeightDelegate.m */; };
@@ -161,7 +159,6 @@
 		1155C21F16AD2EA900A9A1EC /* UIView+TTUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C19616AD2EA900A9A1EC /* UIView+TTUICommon.m */; };
 		1155C22016AD2EA900A9A1EC /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C19816AD2EA900A9A1EC /* UIViewAdditions.m */; };
 		1155C22116AD2EA900A9A1EC /* UIViewControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C19A16AD2EA900A9A1EC /* UIViewControllerAdditions.m */; };
-		1155C22216AD2EA900A9A1EC /* UIWebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C19D16AD2EA900A9A1EC /* UIWebViewAdditions.m */; };
 		1155C22316AD2EA900A9A1EC /* UIWindowAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C19F16AD2EA900A9A1EC /* UIWindowAdditions.m */; };
 		1155C2A116AD2FF100A9A1EC /* TTBevelBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C22816AD2FF000A9A1EC /* TTBevelBorderStyle.m */; };
 		1155C2A216AD2FF100A9A1EC /* TTBlendStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C22A16AD2FF000A9A1EC /* TTBlendStyle.m */; };
@@ -285,7 +282,6 @@
 		117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F416AD2EA900A9A1EC /* TTStyledTextLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C616AE78740097685E /* TTTabItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C10316AD2EA900A9A1EC /* TTTabItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3C716AE78740097685E /* TTTableFooterInfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11516AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C816AE78740097685E /* TTTableHeaderDragRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11916AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C916AE78740097685E /* TTTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C11B16AD2EA900A9A1EC /* TTTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3CA16AE78740097685E /* TTTableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C12116AD2EA900A9A1EC /* TTTableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -298,7 +294,6 @@
 		117EF3D116AE78740097685E /* TTTableViewDragRefreshDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15916AD2EA900A9A1EC /* TTTableViewDragRefreshDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3D216AE78740097685E /* TTTableViewGroupedVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15B16AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3D316AE78740097685E /* TTTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15D16AD2EA900A9A1EC /* TTTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3D416AE78740097685E /* TTTableViewNetworkEnabledDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C15F16AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3D516AE78740097685E /* TTTableViewPlainDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16116AD2EA900A9A1EC /* TTTableViewPlainDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3D616AE78740097685E /* TTTableViewPlainVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16316AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3D716AE78740097685E /* TTTableViewVarHeightDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C16516AD2EA900A9A1EC /* TTTableViewVarHeightDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,7 +312,6 @@
 		117EF3E416AE78740097685E /* UIViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19716AD2EA900A9A1EC /* UIViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3E516AE78740097685E /* UIViewControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19916AD2EA900A9A1EC /* UIViewControllerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3E616AE78740097685E /* UIViewControllerGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19B16AD2EA900A9A1EC /* UIViewControllerGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3E716AE78740097685E /* UIWebViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19C16AD2EA900A9A1EC /* UIWebViewAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3E816AE78740097685E /* UIWindowAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C19E16AD2EA900A9A1EC /* UIWindowAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3E916AE78740097685E /* Three20UINavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04916AD2E9500A9A1EC /* Three20UINavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3EA16AE78740097685E /* Three20UINavigator+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C04816AD2E9500A9A1EC /* Three20UINavigator+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -506,8 +500,6 @@
 		1155C0F516AD2EA900A9A1EC /* TTStyledTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyledTextLabel.m; sourceTree = "<group>"; };
 		1155C10316AD2EA900A9A1EC /* TTTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabItem.h; sourceTree = "<group>"; };
 		1155C10416AD2EA900A9A1EC /* TTTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabItem.m; sourceTree = "<group>"; };
-		1155C11516AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableFooterInfiniteScrollView.h; sourceTree = "<group>"; };
-		1155C11616AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableFooterInfiniteScrollView.m; sourceTree = "<group>"; };
 		1155C11916AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableHeaderDragRefreshView.h; sourceTree = "<group>"; };
 		1155C11A16AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableHeaderDragRefreshView.m; sourceTree = "<group>"; };
 		1155C11B16AD2EA900A9A1EC /* TTTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableHeaderView.h; sourceTree = "<group>"; };
@@ -530,8 +522,6 @@
 		1155C15C16AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewGroupedVarHeightDelegate.m; sourceTree = "<group>"; };
 		1155C15D16AD2EA900A9A1EC /* TTTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewItem.h; sourceTree = "<group>"; };
 		1155C15E16AD2EA900A9A1EC /* TTTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewItem.m; sourceTree = "<group>"; };
-		1155C15F16AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewNetworkEnabledDelegate.h; sourceTree = "<group>"; };
-		1155C16016AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewNetworkEnabledDelegate.m; sourceTree = "<group>"; };
 		1155C16116AD2EA900A9A1EC /* TTTableViewPlainDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewPlainDelegate.h; sourceTree = "<group>"; };
 		1155C16216AD2EA900A9A1EC /* TTTableViewPlainDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewPlainDelegate.m; sourceTree = "<group>"; };
 		1155C16316AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewPlainVarHeightDelegate.h; sourceTree = "<group>"; };
@@ -567,8 +557,6 @@
 		1155C19916AD2EA900A9A1EC /* UIViewControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerAdditions.h; sourceTree = "<group>"; };
 		1155C19A16AD2EA900A9A1EC /* UIViewControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerAdditions.m; sourceTree = "<group>"; };
 		1155C19B16AD2EA900A9A1EC /* UIViewControllerGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerGarbageCollection.h; sourceTree = "<group>"; };
-		1155C19C16AD2EA900A9A1EC /* UIWebViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewAdditions.h; sourceTree = "<group>"; };
-		1155C19D16AD2EA900A9A1EC /* UIWebViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewAdditions.m; sourceTree = "<group>"; };
 		1155C19E16AD2EA900A9A1EC /* UIWindowAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWindowAdditions.h; sourceTree = "<group>"; };
 		1155C19F16AD2EA900A9A1EC /* UIWindowAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWindowAdditions.m; sourceTree = "<group>"; };
 		1155C22516AD2FF000A9A1EC /* Three20Style+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Style+Additions.h"; sourceTree = "<group>"; };
@@ -864,8 +852,6 @@
 				1155C0F516AD2EA900A9A1EC /* TTStyledTextLabel.m */,
 				1155C10316AD2EA900A9A1EC /* TTTabItem.h */,
 				1155C10416AD2EA900A9A1EC /* TTTabItem.m */,
-				1155C11516AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.h */,
-				1155C11616AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.m */,
 				1155C11916AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.h */,
 				1155C11A16AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.m */,
 				1155C11B16AD2EA900A9A1EC /* TTTableHeaderView.h */,
@@ -890,8 +876,6 @@
 				1155C15C16AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.m */,
 				1155C15D16AD2EA900A9A1EC /* TTTableViewItem.h */,
 				1155C15E16AD2EA900A9A1EC /* TTTableViewItem.m */,
-				1155C15F16AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.h */,
-				1155C16016AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.m */,
 				1155C16116AD2EA900A9A1EC /* TTTableViewPlainDelegate.h */,
 				1155C16216AD2EA900A9A1EC /* TTTableViewPlainDelegate.m */,
 				1155C16316AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.h */,
@@ -927,8 +911,6 @@
 				1155C19916AD2EA900A9A1EC /* UIViewControllerAdditions.h */,
 				1155C19A16AD2EA900A9A1EC /* UIViewControllerAdditions.m */,
 				1155C19B16AD2EA900A9A1EC /* UIViewControllerGarbageCollection.h */,
-				1155C19C16AD2EA900A9A1EC /* UIWebViewAdditions.h */,
-				1155C19D16AD2EA900A9A1EC /* UIWebViewAdditions.m */,
 				1155C19E16AD2EA900A9A1EC /* UIWindowAdditions.h */,
 				1155C19F16AD2EA900A9A1EC /* UIWindowAdditions.m */,
 			);
@@ -1182,7 +1164,6 @@
 				117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */,
 				117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */,
 				117EF3C616AE78740097685E /* TTTabItem.h in Headers */,
-				117EF3C716AE78740097685E /* TTTableFooterInfiniteScrollView.h in Headers */,
 				117EF3C816AE78740097685E /* TTTableHeaderDragRefreshView.h in Headers */,
 				117EF3C916AE78740097685E /* TTTableHeaderView.h in Headers */,
 				117EF3CA16AE78740097685E /* TTTableItem.h in Headers */,
@@ -1195,7 +1176,6 @@
 				117EF3D116AE78740097685E /* TTTableViewDragRefreshDelegate.h in Headers */,
 				117EF3D216AE78740097685E /* TTTableViewGroupedVarHeightDelegate.h in Headers */,
 				117EF3D316AE78740097685E /* TTTableViewItem.h in Headers */,
-				117EF3D416AE78740097685E /* TTTableViewNetworkEnabledDelegate.h in Headers */,
 				117EF3D516AE78740097685E /* TTTableViewPlainDelegate.h in Headers */,
 				117EF3D616AE78740097685E /* TTTableViewPlainVarHeightDelegate.h in Headers */,
 				117EF3D716AE78740097685E /* TTTableViewVarHeightDelegate.h in Headers */,
@@ -1214,7 +1194,6 @@
 				117EF3E416AE78740097685E /* UIViewAdditions.h in Headers */,
 				117EF3E516AE78740097685E /* UIViewControllerAdditions.h in Headers */,
 				117EF3E616AE78740097685E /* UIViewControllerGarbageCollection.h in Headers */,
-				117EF3E716AE78740097685E /* UIWebViewAdditions.h in Headers */,
 				117EF3E816AE78740097685E /* UIWindowAdditions.h in Headers */,
 				117EF3E916AE78740097685E /* Three20UINavigator.h in Headers */,
 				117EF3EA16AE78740097685E /* Three20UINavigator+Additions.h in Headers */,
@@ -1419,7 +1398,6 @@
 				1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */,
 				1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */,
 				1155C1D816AD2EA900A9A1EC /* TTTabItem.m in Sources */,
-				1155C1E116AD2EA900A9A1EC /* TTTableFooterInfiniteScrollView.m in Sources */,
 				1155C1E316AD2EA900A9A1EC /* TTTableHeaderDragRefreshView.m in Sources */,
 				1155C1E416AD2EA900A9A1EC /* TTTableHeaderView.m in Sources */,
 				1155C1E716AD2EA900A9A1EC /* TTTableItem.m in Sources */,
@@ -1431,7 +1409,6 @@
 				1155C20316AD2EA900A9A1EC /* TTTableViewDragRefreshDelegate.m in Sources */,
 				1155C20416AD2EA900A9A1EC /* TTTableViewGroupedVarHeightDelegate.m in Sources */,
 				1155C20516AD2EA900A9A1EC /* TTTableViewItem.m in Sources */,
-				1155C20616AD2EA900A9A1EC /* TTTableViewNetworkEnabledDelegate.m in Sources */,
 				1155C20716AD2EA900A9A1EC /* TTTableViewPlainDelegate.m in Sources */,
 				1155C20816AD2EA900A9A1EC /* TTTableViewPlainVarHeightDelegate.m in Sources */,
 				1155C20916AD2EA900A9A1EC /* TTTableViewVarHeightDelegate.m in Sources */,
@@ -1449,7 +1426,6 @@
 				1155C21F16AD2EA900A9A1EC /* UIView+TTUICommon.m in Sources */,
 				1155C22016AD2EA900A9A1EC /* UIViewAdditions.m in Sources */,
 				1155C22116AD2EA900A9A1EC /* UIViewControllerAdditions.m in Sources */,
-				1155C22216AD2EA900A9A1EC /* UIWebViewAdditions.m in Sources */,
 				1155C22316AD2EA900A9A1EC /* UIWindowAdditions.m in Sources */,
 				1155C2A116AD2FF100A9A1EC /* TTBevelBorderStyle.m in Sources */,
 				1155C2A216AD2FF100A9A1EC /* TTBlendStyle.m in Sources */,
