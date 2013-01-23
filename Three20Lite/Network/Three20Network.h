@@ -16,12 +16,9 @@
 
 #import "Three20Core.h"
 
-// Network
-
 // - Global
 #import "TTGlobalNetwork.h"
 #import "TTURLRequestCachePolicy.h"
-#import "TTErrorCodes.h"
 
 // - Models
 #import "TTModel.h"
@@ -39,6 +36,5 @@
 #import "TTURLJSONResponse.h"
 
 // - Classes
-#import "TTUserInfo.h"
 #import "TTURLRequestQueue.h"
 #import "TTURLCache.h"

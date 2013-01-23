@@ -87,7 +87,6 @@
 		1155C01D16AD2CAE00A9A1EC /* TTGlobalCorePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C00716AD2CAE00A9A1EC /* TTGlobalCorePaths.m */; };
 		1155C01E16AD2CAE00A9A1EC /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C00916AD2CAE00A9A1EC /* TTGlobalCoreRects.m */; };
 		1155C01F16AD2CAE00A9A1EC /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C00B16AD2CAE00A9A1EC /* TTMarkupStripper.m */; };
-		1155C03C16AD2DCE00A9A1EC /* TTErrorCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C02216AD2DCE00A9A1EC /* TTErrorCodes.m */; };
 		1155C03D16AD2DCE00A9A1EC /* TTGlobalNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C02416AD2DCE00A9A1EC /* TTGlobalNetwork.m */; };
 		1155C03E16AD2DCE00A9A1EC /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C02616AD2DCE00A9A1EC /* TTModel.m */; };
 		1155C03F16AD2DCE00A9A1EC /* TTRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C02916AD2DCE00A9A1EC /* TTRequestLoader.m */; };
@@ -97,7 +96,6 @@
 		1155C04316AD2DCE00A9A1EC /* TTURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C03116AD2DCE00A9A1EC /* TTURLRequest.m */; };
 		1155C04416AD2DCE00A9A1EC /* TTURLRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C03516AD2DCE00A9A1EC /* TTURLRequestModel.m */; };
 		1155C04516AD2DCE00A9A1EC /* TTURLRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C03716AD2DCE00A9A1EC /* TTURLRequestQueue.m */; };
-		1155C04616AD2DCE00A9A1EC /* TTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C03B16AD2DCE00A9A1EC /* TTUserInfo.m */; };
 		1155C07116AD2E9500A9A1EC /* TTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C04B16AD2E9500A9A1EC /* TTBaseNavigationController.m */; };
 		1155C07216AD2E9500A9A1EC /* TTBaseNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C04D16AD2E9500A9A1EC /* TTBaseNavigator.m */; };
 		1155C07316AD2E9500A9A1EC /* TTGlobalNavigatorMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C05016AD2E9500A9A1EC /* TTGlobalNavigatorMetrics.m */; };
@@ -251,7 +249,6 @@
 		117EF39116AE78730097685E /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEA16AD2CAE00A9A1EC /* NSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39216AE78730097685E /* Three20Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02016AD2DCE00A9A1EC /* Three20Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39316AE78730097685E /* TTURLJSONResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF39416AE78730097685E /* TTErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02116AD2DCE00A9A1EC /* TTErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39516AE78730097685E /* TTGlobalNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02316AD2DCE00A9A1EC /* TTGlobalNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39616AE78730097685E /* TTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02516AD2DCE00A9A1EC /* TTModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39716AE78730097685E /* TTModelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02716AD2DCE00A9A1EC /* TTModelDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -266,7 +263,6 @@
 		117EF3A016AE78730097685E /* TTURLRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03616AD2DCE00A9A1EC /* TTURLRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A116AE78730097685E /* TTURLRequestQueueInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03816AD2DCE00A9A1EC /* TTURLRequestQueueInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A216AE78730097685E /* TTURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03916AD2DCE00A9A1EC /* TTURLResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3A316AE78730097685E /* TTUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C03A16AD2DCE00A9A1EC /* TTUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A416AE78730097685E /* Three20UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08016AD2EA800A9A1EC /* Three20UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A516AE78730097685E /* Three20UI+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08116AD2EA800A9A1EC /* Three20UI+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3A616AE78730097685E /* Three20UICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C08216AD2EA800A9A1EC /* Three20UICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -410,8 +406,6 @@
 		1155C00A16AD2CAE00A9A1EC /* TTMarkupStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMarkupStripper.h; sourceTree = "<group>"; };
 		1155C00B16AD2CAE00A9A1EC /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMarkupStripper.m; sourceTree = "<group>"; };
 		1155C02016AD2DCE00A9A1EC /* Three20Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20Network.h; sourceTree = "<group>"; };
-		1155C02116AD2DCE00A9A1EC /* TTErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTErrorCodes.h; sourceTree = "<group>"; };
-		1155C02216AD2DCE00A9A1EC /* TTErrorCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTErrorCodes.m; sourceTree = "<group>"; };
 		1155C02316AD2DCE00A9A1EC /* TTGlobalNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalNetwork.h; sourceTree = "<group>"; };
 		1155C02416AD2DCE00A9A1EC /* TTGlobalNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalNetwork.m; sourceTree = "<group>"; };
 		1155C02516AD2DCE00A9A1EC /* TTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTModel.h; sourceTree = "<group>"; };
@@ -435,8 +429,6 @@
 		1155C03716AD2DCE00A9A1EC /* TTURLRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTURLRequestQueue.m; sourceTree = "<group>"; };
 		1155C03816AD2DCE00A9A1EC /* TTURLRequestQueueInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLRequestQueueInternal.h; sourceTree = "<group>"; };
 		1155C03916AD2DCE00A9A1EC /* TTURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTURLResponse.h; sourceTree = "<group>"; };
-		1155C03A16AD2DCE00A9A1EC /* TTUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserInfo.h; sourceTree = "<group>"; };
-		1155C03B16AD2DCE00A9A1EC /* TTUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserInfo.m; sourceTree = "<group>"; };
 		1155C04816AD2E9500A9A1EC /* Three20UINavigator+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20UINavigator+Additions.h"; sourceTree = "<group>"; };
 		1155C04916AD2E9500A9A1EC /* Three20UINavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20UINavigator.h; sourceTree = "<group>"; };
 		1155C04A16AD2E9500A9A1EC /* TTBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseNavigationController.h; sourceTree = "<group>"; };
@@ -813,10 +805,6 @@
 			isa = PBXGroup;
 			children = (
 				1155C02016AD2DCE00A9A1EC /* Three20Network.h */,
-				1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */,
-				1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */,
-				1155C02116AD2DCE00A9A1EC /* TTErrorCodes.h */,
-				1155C02216AD2DCE00A9A1EC /* TTErrorCodes.m */,
 				1155C02316AD2DCE00A9A1EC /* TTGlobalNetwork.h */,
 				1155C02416AD2DCE00A9A1EC /* TTGlobalNetwork.m */,
 				1155C02516AD2DCE00A9A1EC /* TTModel.h */,
@@ -830,6 +818,8 @@
 				1155C02D16AD2DCE00A9A1EC /* TTURLDataResponse.m */,
 				1155C02E16AD2DCE00A9A1EC /* TTURLImageResponse.h */,
 				1155C02F16AD2DCE00A9A1EC /* TTURLImageResponse.m */,
+				1155C3D016AD456000A9A1EC /* TTURLJSONResponse.h */,
+				1155C3D316AD45A200A9A1EC /* TTURLJSONResponse.m */,
 				1155C03016AD2DCE00A9A1EC /* TTURLRequest.h */,
 				1155C03116AD2DCE00A9A1EC /* TTURLRequest.m */,
 				1155C03216AD2DCE00A9A1EC /* TTURLRequestCachePolicy.h */,
@@ -840,8 +830,6 @@
 				1155C03716AD2DCE00A9A1EC /* TTURLRequestQueue.m */,
 				1155C03816AD2DCE00A9A1EC /* TTURLRequestQueueInternal.h */,
 				1155C03916AD2DCE00A9A1EC /* TTURLResponse.h */,
-				1155C03A16AD2DCE00A9A1EC /* TTUserInfo.h */,
-				1155C03B16AD2DCE00A9A1EC /* TTUserInfo.m */,
 				111D5FA616AEB7000009EBDB /* TTJSONKit.h */,
 				111D5FA716AEB7000009EBDB /* TTJSONKit.m */,
 			);
@@ -1186,7 +1174,6 @@
 				117EF39116AE78730097685E /* NSStringAdditions.h in Headers */,
 				117EF39216AE78730097685E /* Three20Network.h in Headers */,
 				117EF39316AE78730097685E /* TTURLJSONResponse.h in Headers */,
-				117EF39416AE78730097685E /* TTErrorCodes.h in Headers */,
 				117EF39516AE78730097685E /* TTGlobalNetwork.h in Headers */,
 				117EF39616AE78730097685E /* TTModel.h in Headers */,
 				117EF39716AE78730097685E /* TTModelDelegate.h in Headers */,
@@ -1201,7 +1188,6 @@
 				117EF3A016AE78730097685E /* TTURLRequestQueue.h in Headers */,
 				117EF3A116AE78730097685E /* TTURLRequestQueueInternal.h in Headers */,
 				117EF3A216AE78730097685E /* TTURLResponse.h in Headers */,
-				117EF3A316AE78730097685E /* TTUserInfo.h in Headers */,
 				117EF3A416AE78730097685E /* Three20UI.h in Headers */,
 				117EF3A516AE78730097685E /* Three20UI+Additions.h in Headers */,
 				117EF3A616AE78730097685E /* Three20UICommon.h in Headers */,
@@ -1428,7 +1414,6 @@
 				1155C01D16AD2CAE00A9A1EC /* TTGlobalCorePaths.m in Sources */,
 				1155C01E16AD2CAE00A9A1EC /* TTGlobalCoreRects.m in Sources */,
 				1155C01F16AD2CAE00A9A1EC /* TTMarkupStripper.m in Sources */,
-				1155C03C16AD2DCE00A9A1EC /* TTErrorCodes.m in Sources */,
 				1155C03D16AD2DCE00A9A1EC /* TTGlobalNetwork.m in Sources */,
 				1155C03E16AD2DCE00A9A1EC /* TTModel.m in Sources */,
 				1155C03F16AD2DCE00A9A1EC /* TTRequestLoader.m in Sources */,
@@ -1438,7 +1423,6 @@
 				1155C04316AD2DCE00A9A1EC /* TTURLRequest.m in Sources */,
 				1155C04416AD2DCE00A9A1EC /* TTURLRequestModel.m in Sources */,
 				1155C04516AD2DCE00A9A1EC /* TTURLRequestQueue.m in Sources */,
-				1155C04616AD2DCE00A9A1EC /* TTUserInfo.m in Sources */,
 				1155C07116AD2E9500A9A1EC /* TTBaseNavigationController.m in Sources */,
 				1155C07216AD2E9500A9A1EC /* TTBaseNavigator.m in Sources */,
 				1155C07316AD2E9500A9A1EC /* TTGlobalNavigatorMetrics.m in Sources */,

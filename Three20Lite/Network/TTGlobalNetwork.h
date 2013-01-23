@@ -20,6 +20,10 @@
 #define TT_DEFAULT_CACHE_EXPIRATION_AGE   (60*60*24*7)  // 1 week
 #define TT_CACHE_EXPIRATION_AGE_NEVER     (1.0 / 0.0)   // inf
 
+#define kTTNetworkErrorDomain @"three20.network"
+#define kTTNetworkErrorCodeInvalidImage 100
+#define kTTErrorResponseDataKey @"responsedata"
+
 /**
  * Increment the number of active network requests.
  *

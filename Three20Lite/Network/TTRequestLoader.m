@@ -16,9 +16,6 @@
 
 #import "TTRequestLoader.h"
 
-//Global
-#import "TTErrorCodes.h"
-
 // Network
 #import "TTGlobalNetwork.h"
 #import "TTURLRequest.h"

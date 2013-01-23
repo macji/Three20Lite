@@ -17,7 +17,6 @@
 #import "TTURLImageResponse.h"
 
 // Network
-#import "TTErrorCodes.h"
 #import "TTURLRequest.h"
 #import "TTURLCache.h"
 
