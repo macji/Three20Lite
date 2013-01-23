@@ -6,9 +6,6 @@
 //  Copyright (c) 2013年 iHu.im. All rights reserved.
 //
 
-// Three20, without additions.
-#import "Three20.h"
-
 // Core Additions
 #import "Three20Core+Additions.h"
 
