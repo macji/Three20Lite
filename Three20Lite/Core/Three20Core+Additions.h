@@ -18,7 +18,5 @@
 #import "NSArrayAdditions.h"
 #import "NSDataAdditions.h"
 #import "NSDateAdditions.h"
-#import "NSMutableArrayAdditions.h"
-#import "NSMutableDictionaryAdditions.h"
 #import "NSObjectAdditions.h"
 #import "NSStringAdditions.h"
