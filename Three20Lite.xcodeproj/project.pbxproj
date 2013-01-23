@@ -78,8 +78,6 @@
 		1155C00C16AD2CAE00A9A1EC /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFDF16AD2CAE00A9A1EC /* NSArrayAdditions.m */; };
 		1155C00D16AD2CAE00A9A1EC /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE116AD2CAE00A9A1EC /* NSDataAdditions.m */; };
 		1155C00E16AD2CAE00A9A1EC /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE316AD2CAE00A9A1EC /* NSDateAdditions.m */; };
-		1155C00F16AD2CAE00A9A1EC /* NSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE516AD2CAE00A9A1EC /* NSMutableArrayAdditions.m */; };
-		1155C01016AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE716AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.m */; };
 		1155C01116AD2CAE00A9A1EC /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFE916AD2CAE00A9A1EC /* NSObjectAdditions.m */; };
 		1155C01216AD2CAE00A9A1EC /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFEB16AD2CAE00A9A1EC /* NSStringAdditions.m */; };
 		1155C01616AD2CAE00A9A1EC /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155BFF716AD2CAE00A9A1EC /* TTDebug.m */; };
@@ -249,8 +247,6 @@
 		117EF38B16AE78730097685E /* NSArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFDE16AD2CAE00A9A1EC /* NSArrayAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38C16AE78730097685E /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE016AD2CAE00A9A1EC /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF38D16AE78730097685E /* NSDateAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE216AD2CAE00A9A1EC /* NSDateAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF38E16AE78730097685E /* NSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE416AD2CAE00A9A1EC /* NSMutableArrayAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF38F16AE78730097685E /* NSMutableDictionaryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE616AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39016AE78730097685E /* NSObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFE816AD2CAE00A9A1EC /* NSObjectAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39116AE78730097685E /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155BFEA16AD2CAE00A9A1EC /* NSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF39216AE78730097685E /* Three20Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C02016AD2DCE00A9A1EC /* Three20Network.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -391,10 +387,6 @@
 		1155BFE116AD2CAE00A9A1EC /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		1155BFE216AD2CAE00A9A1EC /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
 		1155BFE316AD2CAE00A9A1EC /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
-		1155BFE416AD2CAE00A9A1EC /* NSMutableArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayAdditions.h; sourceTree = "<group>"; };
-		1155BFE516AD2CAE00A9A1EC /* NSMutableArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayAdditions.m; sourceTree = "<group>"; };
-		1155BFE616AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableDictionaryAdditions.h; sourceTree = "<group>"; };
-		1155BFE716AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryAdditions.m; sourceTree = "<group>"; };
 		1155BFE816AD2CAE00A9A1EC /* NSObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAdditions.h; sourceTree = "<group>"; };
 		1155BFE916AD2CAE00A9A1EC /* NSObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAdditions.m; sourceTree = "<group>"; };
 		1155BFEA16AD2CAE00A9A1EC /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
@@ -809,10 +801,6 @@
 				1155BFE116AD2CAE00A9A1EC /* NSDataAdditions.m */,
 				1155BFE216AD2CAE00A9A1EC /* NSDateAdditions.h */,
 				1155BFE316AD2CAE00A9A1EC /* NSDateAdditions.m */,
-				1155BFE416AD2CAE00A9A1EC /* NSMutableArrayAdditions.h */,
-				1155BFE516AD2CAE00A9A1EC /* NSMutableArrayAdditions.m */,
-				1155BFE616AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.h */,
-				1155BFE716AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.m */,
 				1155BFE816AD2CAE00A9A1EC /* NSObjectAdditions.h */,
 				1155BFE916AD2CAE00A9A1EC /* NSObjectAdditions.m */,
 				1155BFEA16AD2CAE00A9A1EC /* NSStringAdditions.h */,
@@ -1194,8 +1182,6 @@
 				117EF38B16AE78730097685E /* NSArrayAdditions.h in Headers */,
 				117EF38C16AE78730097685E /* NSDataAdditions.h in Headers */,
 				117EF38D16AE78730097685E /* NSDateAdditions.h in Headers */,
-				117EF38E16AE78730097685E /* NSMutableArrayAdditions.h in Headers */,
-				117EF38F16AE78730097685E /* NSMutableDictionaryAdditions.h in Headers */,
 				117EF39016AE78730097685E /* NSObjectAdditions.h in Headers */,
 				117EF39116AE78730097685E /* NSStringAdditions.h in Headers */,
 				117EF39216AE78730097685E /* Three20Network.h in Headers */,
@@ -1433,8 +1419,6 @@
 				1155C00C16AD2CAE00A9A1EC /* NSArrayAdditions.m in Sources */,
 				1155C00D16AD2CAE00A9A1EC /* NSDataAdditions.m in Sources */,
 				1155C00E16AD2CAE00A9A1EC /* NSDateAdditions.m in Sources */,
-				1155C00F16AD2CAE00A9A1EC /* NSMutableArrayAdditions.m in Sources */,
-				1155C01016AD2CAE00A9A1EC /* NSMutableDictionaryAdditions.m in Sources */,
 				1155C01116AD2CAE00A9A1EC /* NSObjectAdditions.m in Sources */,
 				1155C01216AD2CAE00A9A1EC /* NSStringAdditions.m in Sources */,
 				1155C01616AD2CAE00A9A1EC /* TTDebug.m in Sources */,
