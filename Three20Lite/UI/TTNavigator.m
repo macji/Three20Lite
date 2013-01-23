@@ -18,7 +18,6 @@
 
 // UI
 #import "TTPopupViewController.h"
-#import "TTSearchDisplayController.h"
 #import "TTTableViewController.h"
 #import "TTNavigationController.h"
 
@@ -140,22 +139,6 @@ UIViewController* TTOpenURLFromView(NSString* URL, UIView* view) {
   if ([controller isKindOfClass:[TTModelViewController class]]) {
     TTModelViewController* modelViewController = (TTModelViewController*)controller;
     [modelViewController model];
-  }
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-/**
- * @protected
- */
-- (UIViewController*)getVisibleChildController:(UIViewController*)controller {
-  UISearchDisplayController* search = controller.searchDisplayController;
-  if (search && search.active && [search isKindOfClass:[TTSearchDisplayController class]]) {
-    TTSearchDisplayController* ttsearch = (TTSearchDisplayController*)search;
-    return ttsearch.searchResultsViewController;
-
-  } else {
-    return [super getVisibleChildController:controller];
   }
 }
 

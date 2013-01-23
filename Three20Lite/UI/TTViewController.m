@@ -19,7 +19,6 @@
 // UI
 #import "TTNavigator.h"
 #import "TTTableViewController.h"
-#import "TTSearchDisplayController.h"
 
 // UINavigator
 #import "TTGlobalNavigatorMetrics.h"
@@ -99,13 +98,6 @@
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)viewDidUnload {
-  [super viewDidUnload];
-  TT_RELEASE_SAFELY(_searchController);
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
 
@@ -125,34 +117,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark Public
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (TTTableViewController*)searchViewController {
-  return _searchController.searchResultsViewController;
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)setSearchViewController:(TTTableViewController*)searchViewController {
-  if (searchViewController) {
-    if (nil == _searchController) {
-      UISearchBar* searchBar = [[[UISearchBar alloc] init] autorelease];
-      [searchBar sizeToFit];
-
-      _searchController = [[TTSearchDisplayController alloc] initWithSearchBar:searchBar
-                                                             contentsController:self];
-    }
-
-    searchViewController.superController = self;
-    _searchController.searchResultsViewController = searchViewController;
-
-  } else {
-    _searchController.searchResultsViewController = nil;
-    TT_RELEASE_SAFELY(_searchController);
-  }
-}
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 + (void)doGarbageCollection {

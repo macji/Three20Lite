@@ -20,7 +20,6 @@
 #import "TTGlobalNetwork.h"
 #import "TTURLRequest.h"
 #import "TTURLRequestDelegate.h"
-#import "TTUserInfo.h"
 #import "TTURLResponse.h"
 #import "TTURLCache.h"
 

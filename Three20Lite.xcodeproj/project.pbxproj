@@ -127,11 +127,6 @@
 		1155C1C016AD2EA900A9A1EC /* TTNavigatorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0CB16AD2EA800A9A1EC /* TTNavigatorWindow.m */; };
 		1155C1C616AD2EA900A9A1EC /* TTPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0DB16AD2EA800A9A1EC /* TTPopupViewController.m */; };
 		1155C1C916AD2EA900A9A1EC /* TTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0E216AD2EA800A9A1EC /* TTScrollView.m */; };
-		1155C1CA16AD2EA900A9A1EC /* TTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0E616AD2EA800A9A1EC /* TTSearchBar.m */; };
-		1155C1CB16AD2EA900A9A1EC /* TTSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0E816AD2EA800A9A1EC /* TTSearchDisplayController.m */; };
-		1155C1CC16AD2EA900A9A1EC /* TTSearchlightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0EA16AD2EA800A9A1EC /* TTSearchlightLabel.m */; };
-		1155C1CD16AD2EA900A9A1EC /* TTSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0EC16AD2EA900A9A1EC /* TTSearchTextField.m */; };
-		1155C1CE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0EF16AD2EA900A9A1EC /* TTSearchTextFieldInternal.m */; };
 		1155C1CF16AD2EA900A9A1EC /* TTSectionedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */; };
 		1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F316AD2EA900A9A1EC /* TTSplitViewController.m */; };
 		1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0F516AD2EA900A9A1EC /* TTStyledTextLabel.m */; };
@@ -286,12 +281,6 @@
 		117EF3BA16AE78730097685E /* TTScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E116AD2EA800A9A1EC /* TTScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BD16AE78730097685E /* TTSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E516AD2EA800A9A1EC /* TTSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BE16AE78730097685E /* TTSearchDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E716AD2EA800A9A1EC /* TTSearchDisplayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3BF16AE78730097685E /* TTSearchlightLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0E916AD2EA800A9A1EC /* TTSearchlightLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3C016AE78730097685E /* TTSearchTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0EB16AD2EA800A9A1EC /* TTSearchTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3C116AE78730097685E /* TTSearchTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0ED16AD2EA900A9A1EC /* TTSearchTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3C216AE78730097685E /* TTSearchTextFieldInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0EE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0F416AD2EA900A9A1EC /* TTStyledTextLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -509,17 +498,6 @@
 		1155C0E216AD2EA800A9A1EC /* TTScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollView.m; sourceTree = "<group>"; };
 		1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewDataSource.h; sourceTree = "<group>"; };
 		1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewDelegate.h; sourceTree = "<group>"; };
-		1155C0E516AD2EA800A9A1EC /* TTSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchBar.h; sourceTree = "<group>"; };
-		1155C0E616AD2EA800A9A1EC /* TTSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSearchBar.m; sourceTree = "<group>"; };
-		1155C0E716AD2EA800A9A1EC /* TTSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchDisplayController.h; sourceTree = "<group>"; };
-		1155C0E816AD2EA800A9A1EC /* TTSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSearchDisplayController.m; sourceTree = "<group>"; };
-		1155C0E916AD2EA800A9A1EC /* TTSearchlightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchlightLabel.h; sourceTree = "<group>"; };
-		1155C0EA16AD2EA800A9A1EC /* TTSearchlightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSearchlightLabel.m; sourceTree = "<group>"; };
-		1155C0EB16AD2EA800A9A1EC /* TTSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchTextField.h; sourceTree = "<group>"; };
-		1155C0EC16AD2EA900A9A1EC /* TTSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSearchTextField.m; sourceTree = "<group>"; };
-		1155C0ED16AD2EA900A9A1EC /* TTSearchTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchTextFieldDelegate.h; sourceTree = "<group>"; };
-		1155C0EE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSearchTextFieldInternal.h; sourceTree = "<group>"; };
-		1155C0EF16AD2EA900A9A1EC /* TTSearchTextFieldInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSearchTextFieldInternal.m; sourceTree = "<group>"; };
 		1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSectionedDataSource.h; sourceTree = "<group>"; };
 		1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSectionedDataSource.m; sourceTree = "<group>"; };
 		1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSplitViewController.h; sourceTree = "<group>"; };
@@ -878,17 +856,6 @@
 				1155C0E216AD2EA800A9A1EC /* TTScrollView.m */,
 				1155C0E316AD2EA800A9A1EC /* TTScrollViewDataSource.h */,
 				1155C0E416AD2EA800A9A1EC /* TTScrollViewDelegate.h */,
-				1155C0E516AD2EA800A9A1EC /* TTSearchBar.h */,
-				1155C0E616AD2EA800A9A1EC /* TTSearchBar.m */,
-				1155C0E716AD2EA800A9A1EC /* TTSearchDisplayController.h */,
-				1155C0E816AD2EA800A9A1EC /* TTSearchDisplayController.m */,
-				1155C0E916AD2EA800A9A1EC /* TTSearchlightLabel.h */,
-				1155C0EA16AD2EA800A9A1EC /* TTSearchlightLabel.m */,
-				1155C0EB16AD2EA800A9A1EC /* TTSearchTextField.h */,
-				1155C0EC16AD2EA900A9A1EC /* TTSearchTextField.m */,
-				1155C0ED16AD2EA900A9A1EC /* TTSearchTextFieldDelegate.h */,
-				1155C0EE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.h */,
-				1155C0EF16AD2EA900A9A1EC /* TTSearchTextFieldInternal.m */,
 				1155C0F016AD2EA900A9A1EC /* TTSectionedDataSource.h */,
 				1155C0F116AD2EA900A9A1EC /* TTSectionedDataSource.m */,
 				1155C0F216AD2EA900A9A1EC /* TTSplitViewController.h */,
@@ -1211,12 +1178,6 @@
 				117EF3BA16AE78730097685E /* TTScrollView.h in Headers */,
 				117EF3BB16AE78730097685E /* TTScrollViewDataSource.h in Headers */,
 				117EF3BC16AE78730097685E /* TTScrollViewDelegate.h in Headers */,
-				117EF3BD16AE78730097685E /* TTSearchBar.h in Headers */,
-				117EF3BE16AE78730097685E /* TTSearchDisplayController.h in Headers */,
-				117EF3BF16AE78730097685E /* TTSearchlightLabel.h in Headers */,
-				117EF3C016AE78730097685E /* TTSearchTextField.h in Headers */,
-				117EF3C116AE78730097685E /* TTSearchTextFieldDelegate.h in Headers */,
-				117EF3C216AE78730097685E /* TTSearchTextFieldInternal.h in Headers */,
 				117EF3C316AE78730097685E /* TTSectionedDataSource.h in Headers */,
 				117EF3C416AE78740097685E /* TTSplitViewController.h in Headers */,
 				117EF3C516AE78740097685E /* TTStyledTextLabel.h in Headers */,
@@ -1454,11 +1415,6 @@
 				1155C1C016AD2EA900A9A1EC /* TTNavigatorWindow.m in Sources */,
 				1155C1C616AD2EA900A9A1EC /* TTPopupViewController.m in Sources */,
 				1155C1C916AD2EA900A9A1EC /* TTScrollView.m in Sources */,
-				1155C1CA16AD2EA900A9A1EC /* TTSearchBar.m in Sources */,
-				1155C1CB16AD2EA900A9A1EC /* TTSearchDisplayController.m in Sources */,
-				1155C1CC16AD2EA900A9A1EC /* TTSearchlightLabel.m in Sources */,
-				1155C1CD16AD2EA900A9A1EC /* TTSearchTextField.m in Sources */,
-				1155C1CE16AD2EA900A9A1EC /* TTSearchTextFieldInternal.m in Sources */,
 				1155C1CF16AD2EA900A9A1EC /* TTSectionedDataSource.m in Sources */,
 				1155C1D016AD2EA900A9A1EC /* TTSplitViewController.m in Sources */,
 				1155C1D116AD2EA900A9A1EC /* TTStyledTextLabel.m in Sources */,
