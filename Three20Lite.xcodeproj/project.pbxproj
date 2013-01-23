@@ -127,7 +127,6 @@
 		1155C1AD16AD2EA900A9A1EC /* TTImageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0A116AD2EA800A9A1EC /* TTImageLayer.m */; };
 		1155C1AE16AD2EA900A9A1EC /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0A316AD2EA800A9A1EC /* TTImageView.m */; };
 		1155C1AF16AD2EA900A9A1EC /* TTImageViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0A616AD2EA800A9A1EC /* TTImageViewInternal.m */; };
-		1155C1B016AD2EA900A9A1EC /* TTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0A816AD2EA800A9A1EC /* TTLabel.m */; };
 		1155C1B716AD2EA900A9A1EC /* TTListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0B816AD2EA800A9A1EC /* TTListDataSource.m */; };
 		1155C1BD16AD2EA900A9A1EC /* TTModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0C516AD2EA800A9A1EC /* TTModelViewController.m */; };
 		1155C1BE16AD2EA900A9A1EC /* TTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0C716AD2EA800A9A1EC /* TTNavigationController.m */; };
@@ -293,7 +292,6 @@
 		117EF3B016AE78730097685E /* TTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A216AD2EA800A9A1EC /* TTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B116AE78730097685E /* TTImageViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A416AD2EA800A9A1EC /* TTImageViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B216AE78730097685E /* TTImageViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A516AD2EA800A9A1EC /* TTImageViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117EF3B316AE78730097685E /* TTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0A716AD2EA800A9A1EC /* TTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B416AE78730097685E /* TTListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0B716AD2EA800A9A1EC /* TTListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B516AE78730097685E /* TTModelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C416AD2EA800A9A1EC /* TTModelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117EF3B616AE78730097685E /* TTNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155C0C616AD2EA800A9A1EC /* TTNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -525,8 +523,6 @@
 		1155C0A416AD2EA800A9A1EC /* TTImageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageViewDelegate.h; sourceTree = "<group>"; };
 		1155C0A516AD2EA800A9A1EC /* TTImageViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageViewInternal.h; sourceTree = "<group>"; };
 		1155C0A616AD2EA800A9A1EC /* TTImageViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageViewInternal.m; sourceTree = "<group>"; };
-		1155C0A716AD2EA800A9A1EC /* TTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLabel.h; sourceTree = "<group>"; };
-		1155C0A816AD2EA800A9A1EC /* TTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLabel.m; sourceTree = "<group>"; };
 		1155C0B716AD2EA800A9A1EC /* TTListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTListDataSource.h; sourceTree = "<group>"; };
 		1155C0B816AD2EA800A9A1EC /* TTListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTListDataSource.m; sourceTree = "<group>"; };
 		1155C0C416AD2EA800A9A1EC /* TTModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTModelViewController.h; sourceTree = "<group>"; };
@@ -911,8 +907,6 @@
 				1155C0A416AD2EA800A9A1EC /* TTImageViewDelegate.h */,
 				1155C0A516AD2EA800A9A1EC /* TTImageViewInternal.h */,
 				1155C0A616AD2EA800A9A1EC /* TTImageViewInternal.m */,
-				1155C0A716AD2EA800A9A1EC /* TTLabel.h */,
-				1155C0A816AD2EA800A9A1EC /* TTLabel.m */,
 				1155C0B716AD2EA800A9A1EC /* TTListDataSource.h */,
 				1155C0B816AD2EA800A9A1EC /* TTListDataSource.m */,
 				1155C0C416AD2EA800A9A1EC /* TTModelViewController.h */,
@@ -1261,7 +1255,6 @@
 				117EF3B016AE78730097685E /* TTImageView.h in Headers */,
 				117EF3B116AE78730097685E /* TTImageViewDelegate.h in Headers */,
 				117EF3B216AE78730097685E /* TTImageViewInternal.h in Headers */,
-				117EF3B316AE78730097685E /* TTLabel.h in Headers */,
 				117EF3B416AE78730097685E /* TTListDataSource.h in Headers */,
 				117EF3B516AE78730097685E /* TTModelViewController.h in Headers */,
 				117EF3B616AE78730097685E /* TTNavigationController.h in Headers */,
@@ -1514,7 +1507,6 @@
 				1155C1AD16AD2EA900A9A1EC /* TTImageLayer.m in Sources */,
 				1155C1AE16AD2EA900A9A1EC /* TTImageView.m in Sources */,
 				1155C1AF16AD2EA900A9A1EC /* TTImageViewInternal.m in Sources */,
-				1155C1B016AD2EA900A9A1EC /* TTLabel.m in Sources */,
 				1155C1B716AD2EA900A9A1EC /* TTListDataSource.m in Sources */,
 				1155C1BD16AD2EA900A9A1EC /* TTModelViewController.m in Sources */,
 				1155C1BE16AD2EA900A9A1EC /* TTNavigationController.m in Sources */,

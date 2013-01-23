@@ -32,7 +32,6 @@
 #import "TTScrollViewDelegate.h"
 #import "TTScrollViewDataSource.h"
 
-#import "TTLabel.h"
 #import "TTStyledTextLabel.h"
 #import "TTActivityLabel.h"
 #import "TTSearchlightLabel.h"
